@@ -1,0 +1,67 @@
+R Programming, R, https://www.datacamp.com/tracks/r-programming
+Importing & Cleaning Data, R, https://www.datacamp.com/tracks/importing-cleaning-data-with-r
+Data Visualization, R, https://www.datacamp.com/tracks/data-visualization-with-r
+Data Manipulation, R, https://www.datacamp.com/tracks/data-manipulation-with-r
+Statistics Fundamentals, R, https://www.datacamp.com/tracks/learn-statistics-with-r
+Python Fundamentals, Python, https://www.datacamp.com/tracks/python-fundamentals
+Importing & Cleaning Data, Python, https://www.datacamp.com/tracks/importing-cleaning-data-with-python
+Data Manipulation, Python, https://www.datacamp.com/tracks/data-manipulation-with-python
+Time Series, R, https://www.datacamp.com/tracks/time-series-with-r
+Applied Finance, R, https://www.datacamp.com/tracks/applied-finance-in-r
+Finance Fundamentals, R, https://www.datacamp.com/tracks/finance-fundamentals-in-r
+Machine Learning Fundamentals, R, https://www.datacamp.com/tracks/machine-learning-fundamentals
+Machine Learning Fundamentals, Python, https://www.datacamp.com/tracks/machine-learning-fundamentals-with-python
+Text Mining, R, https://www.datacamp.com/tracks/text-mining-with-r
+Spatial Data, R, https://www.datacamp.com/tracks/spatial-data-with-r
+Shiny Fundamentals, R, https://www.datacamp.com/tracks/shiny-fundamentals-with-r
+Time Series, Python, https://www.datacamp.com/tracks/time-series-with-python
+Big Data, R, https://www.datacamp.com/tracks/big-data-with-r
+Tidyverse Fundamentals, R, https://www.datacamp.com/tracks/tidyverse-fundamentals
+Network Analysis, R, https://www.datacamp.com/tracks/analyzing-networks-with-r
+Supervised Machine Learning, R, https://www.datacamp.com/tracks/supervised-machine-learning-in-r
+Interactive Data Visualization, R, https://www.datacamp.com/tracks/interactive-data-visualization-in-r
+SQL Fundamentals, SQL, https://www.datacamp.com/tracks/sql-fundamentals
+Statistics Fundamentals, Python, https://www.datacamp.com/tracks/statistics-fundamentals-with-python
+Unsupervised Machine Learning, R, https://www.datacamp.com/tracks/unsupervised-machine-learning-with-r
+Marketing Analytics, R, https://www.datacamp.com/tracks/marketing-analytics-with-r
+Statistical Inference, R, https://www.datacamp.com/tracks/statistical-inference-with-r
+Data Visualization, Python, https://www.datacamp.com/tracks/data-visualization-with-python
+Intermediate Tidyverse Toolbox, R, https://www.datacamp.com/tracks/intermediate-tidyverse-toolbox
+SQL Server Fundamentals, SQL, https://www.datacamp.com/tracks/sql-server-fundamentals
+Image Processing, Python, https://www.datacamp.com/tracks/image-processing
+Spreadsheet Fundamentals, Spreadsheet, https://www.datacamp.com/tracks/spreadsheet-fundamentals
+Python Toolbox, Python, https://www.datacamp.com/tracks/python-toolbox
+Analyzing Genomic Data, R, https://www.datacamp.com/tracks/analyzing-genomic-data-in-r
+Big Data with PySpark, Python, https://www.datacamp.com/tracks/big-data-with-pyspark
+Python Programming, Python, https://www.datacamp.com/tracks/python-programming
+Data Skills for Business, Theory, https://www.datacamp.com/tracks/foundational-data-skills-for-business-leaders
+Marketing Analytics, Python, https://www.datacamp.com/tracks/marketing-analytics-with-python
+SQL for Business Analysts, SQL, https://www.datacamp.com/tracks/sql-for-business-analysts
+SQL Server for Database Administrators, SQL, https://www.datacamp.com/tracks/sql-server-for-database-administrators
+SQL for Database Administrators, SQL, https://www.datacamp.com/tracks/sql-for-database-administrators
+Intermediate Spreadsheets, Spreadsheet, https://www.datacamp.com/tracks/intermediate-spreadsheets
+Deep Learning, Python, https://www.datacamp.com/tracks/deep-learning-in-python
+Data Literacy Fundamentals, Theory, https://www.datacamp.com/tracks/data-literacy-fundamentals
+Natural Language Processing, Python, https://www.datacamp.com/tracks/natural-language-processing-in-python
+Deep Learning for NLP, Python, https://www.datacamp.com/tracks/deep-learning-for-nlp-in-python
+Finance Fundamentals, Python, https://www.datacamp.com/tracks/finance-fundamentals-in-python
+Applied Finance, Python, https://www.datacamp.com/tracks/applied-finance-in-python
+Finance Fundamentals, Spreadsheet, https://www.datacamp.com/tracks/finance-fundamentals-in-spreadsheets
+Tableau Fundamentals, Tableau, https://www.datacamp.com/tracks/tableau-fundamentals
+Power BI Fundamentals, Power BI, https://www.datacamp.com/tracks/power-bi-fundamentals
+Data Skills for Business, Theory, https://www.datacamp.com/tracks/foundational-data-skills-for-business-leaders
+Data Literacy Fundamentals, Theory, https://www.datacamp.com/tracks/data-literacy-fundamentals
+Data Analyst, R, https://www.datacamp.com/tracks/data-analyst-with-r
+Data Scientist, R, https://www.datacamp.com/tracks/data-scientist-with-r
+Data Analyst, Python, https://www.datacamp.com/tracks/data-analyst-with-python
+Data Scientist, Python, https://www.datacamp.com/tracks/data-scientist-with-python
+Python Programmer, Python, https://www.datacamp.com/tracks/python-programmer
+R Programmer, R, https://www.datacamp.com/tracks/r-programmer
+Quantitative Analyst, R, https://www.datacamp.com/tracks/quantitative-analyst-with-r
+Statistician, R, https://www.datacamp.com/tracks/statistician-with-r
+Machine Learning Scientist, R, https://www.datacamp.com/tracks/machine-learning-scientist-with-r
+Machine Learning Scientist, Python, https://www.datacamp.com/tracks/machine-learning-scientist-with-python
+Data Engineer, Python, https://www.datacamp.com/tracks/data-engineer-with-python
+SQL Server Developer, SQL, https://www.datacamp.com/tracks/sql-server-developer
+Data Analyst, Power BI, https://www.datacamp.com/tracks/data-analyst-in-power-bi
+Data Analyst, SQL, https://www.datacamp.com/tracks/data-analyst-in-sql
