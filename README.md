@@ -95,8 +95,17 @@ course_name, course_desc, course_time
 
 
 
-    ([], [], [])
-
+    (['Manipulating Time Series Data in Python',
+      'Time Series Analysis in Python',
+      'Visualizing Time Series Data in Python',
+      'ARIMA Models in Python',
+      'Machine Learning for Time Series Data in Python'],
+     ["In this course you'll learn the basics of working with time series data.",
+      "In this course you'll learn the basics of analyzing time series data.",
+      'Visualize seasonality, trends and other patterns in your time series data. ',
+      'Learn about ARIMA models in Python and become an expert in time series analysis.',
+      'This course focuses on feature engineering and machine learning for time series data. '],
+     ['4 hours', '4 hours', '4 hours', '4 hours', '4 hours'])
 
 
 Beautiful! This lets me pull just the info I need in a neat way. Let's get this into a function so I can just plug in a URL and get what I want. It makes sense to split this into 2 functions so I can also just retrieve the HTML of other pages if required.
