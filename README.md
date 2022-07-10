@@ -95,17 +95,7 @@ course_name, course_desc, course_time
 
 
 
-    (['Manipulating Time Series Data in Python',
-      'Time Series Analysis in Python',
-      'Visualizing Time Series Data in Python',
-      'ARIMA Models in Python',
-      'Machine Learning for Time Series Data in Python'],
-     ["In this course you'll learn the basics of working with time series data.",
-      "In this course you'll learn the basics of analyzing time series data.",
-      'Visualize seasonality, trends and other patterns in your time series data. ',
-      'Learn about ARIMA models in Python and become an expert in time series analysis.',
-      'This course focuses on feature engineering and machine learning for time series data. '],
-     ['4 hours', '4 hours', '4 hours', '4 hours', '4 hours'])
+    ([], [], [])
 
 
 
@@ -234,7 +224,8 @@ track_urls
 
 # Finally, combine the names, technologies, and urls into a list of tuples
 skill_tracks = list(zip(track_names, track_techs, track_urls))
-skill_tracks
+# Show the first few skill tracks
+skill_tracks[:4]
 ```
 
 
@@ -249,146 +240,7 @@ skill_tracks
       'https://www.datacamp.com/tracks/data-visualization-with-r'),
      ('Data Manipulation',
       'R',
-      'https://www.datacamp.com/tracks/data-manipulation-with-r'),
-     ('Statistics Fundamentals',
-      'R',
-      'https://www.datacamp.com/tracks/learn-statistics-with-r'),
-     ('Python Fundamentals',
-      'Python',
-      'https://www.datacamp.com/tracks/python-fundamentals'),
-     ('Importing & Cleaning Data',
-      'Python',
-      'https://www.datacamp.com/tracks/importing-cleaning-data-with-python'),
-     ('Data Manipulation',
-      'Python',
-      'https://www.datacamp.com/tracks/data-manipulation-with-python'),
-     ('Time Series', 'R', 'https://www.datacamp.com/tracks/time-series-with-r'),
-     ('Applied Finance',
-      'R',
-      'https://www.datacamp.com/tracks/applied-finance-in-r'),
-     ('Finance Fundamentals',
-      'R',
-      'https://www.datacamp.com/tracks/finance-fundamentals-in-r'),
-     ('Machine Learning Fundamentals',
-      'R',
-      'https://www.datacamp.com/tracks/machine-learning-fundamentals'),
-     ('Machine Learning Fundamentals',
-      'Python',
-      'https://www.datacamp.com/tracks/machine-learning-fundamentals-with-python'),
-     ('Text Mining', 'R', 'https://www.datacamp.com/tracks/text-mining-with-r'),
-     ('Spatial Data', 'R', 'https://www.datacamp.com/tracks/spatial-data-with-r'),
-     ('Shiny Fundamentals',
-      'R',
-      'https://www.datacamp.com/tracks/shiny-fundamentals-with-r'),
-     ('Time Series',
-      'Python',
-      'https://www.datacamp.com/tracks/time-series-with-python'),
-     ('Big Data', 'R', 'https://www.datacamp.com/tracks/big-data-with-r'),
-     ('Tidyverse Fundamentals',
-      'R',
-      'https://www.datacamp.com/tracks/tidyverse-fundamentals'),
-     ('Network Analysis',
-      'R',
-      'https://www.datacamp.com/tracks/analyzing-networks-with-r'),
-     ('Supervised Machine Learning',
-      'R',
-      'https://www.datacamp.com/tracks/supervised-machine-learning-in-r'),
-     ('Interactive Data Visualization',
-      'R',
-      'https://www.datacamp.com/tracks/interactive-data-visualization-in-r'),
-     ('SQL Fundamentals',
-      'SQL',
-      'https://www.datacamp.com/tracks/sql-fundamentals'),
-     ('Statistics Fundamentals',
-      'Python',
-      'https://www.datacamp.com/tracks/statistics-fundamentals-with-python'),
-     ('Unsupervised Machine Learning',
-      'R',
-      'https://www.datacamp.com/tracks/unsupervised-machine-learning-with-r'),
-     ('Marketing Analytics',
-      'R',
-      'https://www.datacamp.com/tracks/marketing-analytics-with-r'),
-     ('Statistical Inference',
-      'R',
-      'https://www.datacamp.com/tracks/statistical-inference-with-r'),
-     ('Data Visualization',
-      'Python',
-      'https://www.datacamp.com/tracks/data-visualization-with-python'),
-     ('Intermediate Tidyverse Toolbox',
-      'R',
-      'https://www.datacamp.com/tracks/intermediate-tidyverse-toolbox'),
-     ('SQL Server Fundamentals',
-      'SQL',
-      'https://www.datacamp.com/tracks/sql-server-fundamentals'),
-     ('Image Processing',
-      'Python',
-      'https://www.datacamp.com/tracks/image-processing'),
-     ('Spreadsheet Fundamentals',
-      'Spreadsheet',
-      'https://www.datacamp.com/tracks/spreadsheet-fundamentals'),
-     ('Python Toolbox',
-      'Python',
-      'https://www.datacamp.com/tracks/python-toolbox'),
-     ('Analyzing Genomic Data',
-      'R',
-      'https://www.datacamp.com/tracks/analyzing-genomic-data-in-r'),
-     ('Big Data with PySpark',
-      'Python',
-      'https://www.datacamp.com/tracks/big-data-with-pyspark'),
-     ('Python Programming',
-      'Python',
-      'https://www.datacamp.com/tracks/python-programming'),
-     ('Data Skills for Business',
-      'Theory',
-      'https://www.datacamp.com/tracks/foundational-data-skills-for-business-leaders'),
-     ('Marketing Analytics',
-      'Python',
-      'https://www.datacamp.com/tracks/marketing-analytics-with-python'),
-     ('SQL for Business Analysts',
-      'SQL',
-      'https://www.datacamp.com/tracks/sql-for-business-analysts'),
-     ('SQL Server for Database Administrators',
-      'SQL',
-      'https://www.datacamp.com/tracks/sql-server-for-database-administrators'),
-     ('SQL for Database Administrators',
-      'SQL',
-      'https://www.datacamp.com/tracks/sql-for-database-administrators'),
-     ('Intermediate Spreadsheets',
-      'Spreadsheet',
-      'https://www.datacamp.com/tracks/intermediate-spreadsheets'),
-     ('Deep Learning',
-      'Python',
-      'https://www.datacamp.com/tracks/deep-learning-in-python'),
-     ('Data Literacy Fundamentals',
-      'Theory',
-      'https://www.datacamp.com/tracks/data-literacy-fundamentals'),
-     ('Natural Language Processing',
-      'Python',
-      'https://www.datacamp.com/tracks/natural-language-processing-in-python'),
-     ('Deep Learning for NLP',
-      'Python',
-      'https://www.datacamp.com/tracks/deep-learning-for-nlp-in-python'),
-     ('Finance Fundamentals',
-      'Python',
-      'https://www.datacamp.com/tracks/finance-fundamentals-in-python'),
-     ('Applied Finance',
-      'Python',
-      'https://www.datacamp.com/tracks/applied-finance-in-python'),
-     ('Finance Fundamentals',
-      'Spreadsheet',
-      'https://www.datacamp.com/tracks/finance-fundamentals-in-spreadsheets'),
-     ('Tableau Fundamentals',
-      'Tableau',
-      'https://www.datacamp.com/tracks/tableau-fundamentals'),
-     ('Power BI Fundamentals',
-      'Power BI',
-      'https://www.datacamp.com/tracks/power-bi-fundamentals'),
-     ('Data Skills for Business',
-      'Theory',
-      'https://www.datacamp.com/tracks/foundational-data-skills-for-business-leaders'),
-     ('Data Literacy Fundamentals',
-      'Theory',
-      'https://www.datacamp.com/tracks/data-literacy-fundamentals')]
+      'https://www.datacamp.com/tracks/data-manipulation-with-r')]
 
 
 
@@ -417,12 +269,11 @@ track_urls = [x['href'] for x in track_urls]
 track_urls = ["https://www.datacamp.com" + x for x in track_urls]
 # Remove links not pointing to a career track
 track_urls = track_urls[8:-2]
-track_urls
 
 # Finally, combine the names, technologies and urls into a list of tuples
 career_tracks = list(zip(track_names, track_techs, track_urls))
-
-career_tracks
+# Show the first few career tracks
+career_tracks[:4]
 ```
 
 
@@ -437,33 +288,7 @@ career_tracks
       'https://www.datacamp.com/tracks/data-analyst-with-python'),
      ('Data Scientist',
       'Python',
-      'https://www.datacamp.com/tracks/data-scientist-with-python'),
-     ('Python Programmer',
-      'Python',
-      'https://www.datacamp.com/tracks/python-programmer'),
-     ('R Programmer', 'R', 'https://www.datacamp.com/tracks/r-programmer'),
-     ('Quantitative Analyst',
-      'R',
-      'https://www.datacamp.com/tracks/quantitative-analyst-with-r'),
-     ('Statistician', 'R', 'https://www.datacamp.com/tracks/statistician-with-r'),
-     ('Machine Learning Scientist',
-      'R',
-      'https://www.datacamp.com/tracks/machine-learning-scientist-with-r'),
-     ('Machine Learning Scientist',
-      'Python',
-      'https://www.datacamp.com/tracks/machine-learning-scientist-with-python'),
-     ('Data Engineer',
-      'Python',
-      'https://www.datacamp.com/tracks/data-engineer-with-python'),
-     ('SQL Server Developer',
-      'SQL',
-      'https://www.datacamp.com/tracks/sql-server-developer'),
-     ('Data Analyst',
-      'Power BI',
-      'https://www.datacamp.com/tracks/data-analyst-in-power-bi'),
-     ('Data Analyst',
-      'SQL',
-      'https://www.datacamp.com/tracks/data-analyst-in-sql')]
+      'https://www.datacamp.com/tracks/data-scientist-with-python')]
 
 
 
@@ -490,7 +315,8 @@ with open('all_tracks.txt', 'w') as f:
 with open('all_tracks.txt', 'r') as f:
     all_tracks = f.readlines()
     all_tracks = [x.split(', ') for x in all_tracks]
-all_tracks
+# Check the first few lines
+all_tracks[:4]
 ```
 
 
@@ -505,188 +331,7 @@ all_tracks
       'https://www.datacamp.com/tracks/data-visualization-with-r\n'],
      ['Data Manipulation',
       'R',
-      'https://www.datacamp.com/tracks/data-manipulation-with-r\n'],
-     ['Statistics Fundamentals',
-      'R',
-      'https://www.datacamp.com/tracks/learn-statistics-with-r\n'],
-     ['Python Fundamentals',
-      'Python',
-      'https://www.datacamp.com/tracks/python-fundamentals\n'],
-     ['Importing & Cleaning Data',
-      'Python',
-      'https://www.datacamp.com/tracks/importing-cleaning-data-with-python\n'],
-     ['Data Manipulation',
-      'Python',
-      'https://www.datacamp.com/tracks/data-manipulation-with-python\n'],
-     ['Time Series', 'R', 'https://www.datacamp.com/tracks/time-series-with-r\n'],
-     ['Applied Finance',
-      'R',
-      'https://www.datacamp.com/tracks/applied-finance-in-r\n'],
-     ['Finance Fundamentals',
-      'R',
-      'https://www.datacamp.com/tracks/finance-fundamentals-in-r\n'],
-     ['Machine Learning Fundamentals',
-      'R',
-      'https://www.datacamp.com/tracks/machine-learning-fundamentals\n'],
-     ['Machine Learning Fundamentals',
-      'Python',
-      'https://www.datacamp.com/tracks/machine-learning-fundamentals-with-python\n'],
-     ['Text Mining', 'R', 'https://www.datacamp.com/tracks/text-mining-with-r\n'],
-     ['Spatial Data',
-      'R',
-      'https://www.datacamp.com/tracks/spatial-data-with-r\n'],
-     ['Shiny Fundamentals',
-      'R',
-      'https://www.datacamp.com/tracks/shiny-fundamentals-with-r\n'],
-     ['Time Series',
-      'Python',
-      'https://www.datacamp.com/tracks/time-series-with-python\n'],
-     ['Big Data', 'R', 'https://www.datacamp.com/tracks/big-data-with-r\n'],
-     ['Tidyverse Fundamentals',
-      'R',
-      'https://www.datacamp.com/tracks/tidyverse-fundamentals\n'],
-     ['Network Analysis',
-      'R',
-      'https://www.datacamp.com/tracks/analyzing-networks-with-r\n'],
-     ['Supervised Machine Learning',
-      'R',
-      'https://www.datacamp.com/tracks/supervised-machine-learning-in-r\n'],
-     ['Interactive Data Visualization',
-      'R',
-      'https://www.datacamp.com/tracks/interactive-data-visualization-in-r\n'],
-     ['SQL Fundamentals',
-      'SQL',
-      'https://www.datacamp.com/tracks/sql-fundamentals\n'],
-     ['Statistics Fundamentals',
-      'Python',
-      'https://www.datacamp.com/tracks/statistics-fundamentals-with-python\n'],
-     ['Unsupervised Machine Learning',
-      'R',
-      'https://www.datacamp.com/tracks/unsupervised-machine-learning-with-r\n'],
-     ['Marketing Analytics',
-      'R',
-      'https://www.datacamp.com/tracks/marketing-analytics-with-r\n'],
-     ['Statistical Inference',
-      'R',
-      'https://www.datacamp.com/tracks/statistical-inference-with-r\n'],
-     ['Data Visualization',
-      'Python',
-      'https://www.datacamp.com/tracks/data-visualization-with-python\n'],
-     ['Intermediate Tidyverse Toolbox',
-      'R',
-      'https://www.datacamp.com/tracks/intermediate-tidyverse-toolbox\n'],
-     ['SQL Server Fundamentals',
-      'SQL',
-      'https://www.datacamp.com/tracks/sql-server-fundamentals\n'],
-     ['Image Processing',
-      'Python',
-      'https://www.datacamp.com/tracks/image-processing\n'],
-     ['Spreadsheet Fundamentals',
-      'Spreadsheet',
-      'https://www.datacamp.com/tracks/spreadsheet-fundamentals\n'],
-     ['Python Toolbox',
-      'Python',
-      'https://www.datacamp.com/tracks/python-toolbox\n'],
-     ['Analyzing Genomic Data',
-      'R',
-      'https://www.datacamp.com/tracks/analyzing-genomic-data-in-r\n'],
-     ['Big Data with PySpark',
-      'Python',
-      'https://www.datacamp.com/tracks/big-data-with-pyspark\n'],
-     ['Python Programming',
-      'Python',
-      'https://www.datacamp.com/tracks/python-programming\n'],
-     ['Data Skills for Business',
-      'Theory',
-      'https://www.datacamp.com/tracks/foundational-data-skills-for-business-leaders\n'],
-     ['Marketing Analytics',
-      'Python',
-      'https://www.datacamp.com/tracks/marketing-analytics-with-python\n'],
-     ['SQL for Business Analysts',
-      'SQL',
-      'https://www.datacamp.com/tracks/sql-for-business-analysts\n'],
-     ['SQL Server for Database Administrators',
-      'SQL',
-      'https://www.datacamp.com/tracks/sql-server-for-database-administrators\n'],
-     ['SQL for Database Administrators',
-      'SQL',
-      'https://www.datacamp.com/tracks/sql-for-database-administrators\n'],
-     ['Intermediate Spreadsheets',
-      'Spreadsheet',
-      'https://www.datacamp.com/tracks/intermediate-spreadsheets\n'],
-     ['Deep Learning',
-      'Python',
-      'https://www.datacamp.com/tracks/deep-learning-in-python\n'],
-     ['Data Literacy Fundamentals',
-      'Theory',
-      'https://www.datacamp.com/tracks/data-literacy-fundamentals\n'],
-     ['Natural Language Processing',
-      'Python',
-      'https://www.datacamp.com/tracks/natural-language-processing-in-python\n'],
-     ['Deep Learning for NLP',
-      'Python',
-      'https://www.datacamp.com/tracks/deep-learning-for-nlp-in-python\n'],
-     ['Finance Fundamentals',
-      'Python',
-      'https://www.datacamp.com/tracks/finance-fundamentals-in-python\n'],
-     ['Applied Finance',
-      'Python',
-      'https://www.datacamp.com/tracks/applied-finance-in-python\n'],
-     ['Finance Fundamentals',
-      'Spreadsheet',
-      'https://www.datacamp.com/tracks/finance-fundamentals-in-spreadsheets\n'],
-     ['Tableau Fundamentals',
-      'Tableau',
-      'https://www.datacamp.com/tracks/tableau-fundamentals\n'],
-     ['Power BI Fundamentals',
-      'Power BI',
-      'https://www.datacamp.com/tracks/power-bi-fundamentals\n'],
-     ['Data Skills for Business',
-      'Theory',
-      'https://www.datacamp.com/tracks/foundational-data-skills-for-business-leaders\n'],
-     ['Data Literacy Fundamentals',
-      'Theory',
-      'https://www.datacamp.com/tracks/data-literacy-fundamentals\n'],
-     ['Data Analyst',
-      'R',
-      'https://www.datacamp.com/tracks/data-analyst-with-r\n'],
-     ['Data Scientist',
-      'R',
-      'https://www.datacamp.com/tracks/data-scientist-with-r\n'],
-     ['Data Analyst',
-      'Python',
-      'https://www.datacamp.com/tracks/data-analyst-with-python\n'],
-     ['Data Scientist',
-      'Python',
-      'https://www.datacamp.com/tracks/data-scientist-with-python\n'],
-     ['Python Programmer',
-      'Python',
-      'https://www.datacamp.com/tracks/python-programmer\n'],
-     ['R Programmer', 'R', 'https://www.datacamp.com/tracks/r-programmer\n'],
-     ['Quantitative Analyst',
-      'R',
-      'https://www.datacamp.com/tracks/quantitative-analyst-with-r\n'],
-     ['Statistician',
-      'R',
-      'https://www.datacamp.com/tracks/statistician-with-r\n'],
-     ['Machine Learning Scientist',
-      'R',
-      'https://www.datacamp.com/tracks/machine-learning-scientist-with-r\n'],
-     ['Machine Learning Scientist',
-      'Python',
-      'https://www.datacamp.com/tracks/machine-learning-scientist-with-python\n'],
-     ['Data Engineer',
-      'Python',
-      'https://www.datacamp.com/tracks/data-engineer-with-python\n'],
-     ['SQL Server Developer',
-      'SQL',
-      'https://www.datacamp.com/tracks/sql-server-developer\n'],
-     ['Data Analyst',
-      'Power BI',
-      'https://www.datacamp.com/tracks/data-analyst-in-power-bi\n'],
-     ['Data Analyst',
-      'SQL',
-      'https://www.datacamp.com/tracks/data-analyst-in-sql\n']]
+      'https://www.datacamp.com/tracks/data-manipulation-with-r\n']]
 
 
 
@@ -826,617 +471,10 @@ def show_courses(tech):
                 print('\t'*2, course)
             print()
 
+# Show all courses by track and technology (output hidden here due to length)
 for tech in technologies:
     show_courses(tech)
 ```
-
-    
-    Courses for Theory:
-    	 Data Skills for Business, Theory
-    		 Data Science for Business
-    		 Introduction to Statistics in Spreadsheets
-    		 Machine Learning for Business
-    		 Data-Driven Decision Making for Business
-    		 Marketing Analytics for Business
-    		 AI Fundamentals
-    		 Introduction to Data Science in Python
-    
-    	 Data Literacy Fundamentals, Theory
-    		 Data Science for Everyone
-    		 Machine Learning for Everyone
-    		 Data Visualization for Everyone
-    		 Data Engineering for Everyone
-    		 Cloud Computing for Everyone
-    
-    
-    Courses for Python:
-    	 Python Fundamentals, Python
-    		 Introduction to Python
-    		 Intermediate Python
-    		 Python Data Science Toolbox (Part 1)
-    		 Python Data Science Toolbox (Part 2)
-    
-    	 Importing & Cleaning Data, Python
-    		 Introduction to Importing Data in Python
-    		 Intermediate Importing Data in Python
-    		 Cleaning Data in Python
-    		 Reshaping Data with pandas
-    
-    	 Data Manipulation, Python
-    		 Data Manipulation with pandas
-    		 Joining Data with pandas
-    		 Analyzing Police Activity with pandas
-    		 Introduction to Databases in Python
-    
-    	 Machine Learning Fundamentals, Python
-    		 Supervised Learning with scikit-learn
-    		 Unsupervised Learning in Python
-    		 Linear Classifiers in Python
-    		 Introduction to Deep Learning in Python
-    
-    	 Time Series, Python
-    		 Manipulating Time Series Data in Python
-    		 Time Series Analysis in Python
-    		 Visualizing Time Series Data in Python
-    		 ARIMA Models in Python
-    		 Machine Learning for Time Series Data in Python
-    
-    	 Statistics Fundamentals, Python
-    		 Introduction to Statistics in Python
-    		 Introduction to Regression with statsmodels in Python
-    		 Intermediate Regression with statsmodels in Python
-    		 Sampling in Python
-    		 Hypothesis Testing in Python
-    
-    	 Data Visualization, Python
-    		 Introduction to Data Visualization with Matplotlib
-    		 Introduction to Data Visualization with Seaborn
-    		 Improving Your Data Visualizations in Python
-    		 Visualizing Geospatial Data in Python
-    
-    	 Image Processing, Python
-    		 Image Processing in Python
-    		 Biomedical Image Analysis in Python
-    		 Image Processing with Keras in Python
-    
-    	 Python Toolbox, Python
-    		 Dealing with Missing Data in Python
-    		 Working with Dates and Times in Python
-    		 Regular Expressions in Python
-    		 Writing Efficient Python Code
-    
-    	 Big Data with PySpark, Python
-    		 Introduction to PySpark
-    		 Big Data Fundamentals with PySpark
-    		 Cleaning Data with PySpark
-    		 Feature Engineering with PySpark
-    		 Machine Learning with PySpark
-    		 Building Recommendation Engines with PySpark
-    
-    	 Python Programming, Python
-    		 Writing Efficient Python Code
-    		 Writing Efficient Code with pandas
-    		 Writing Functions in Python
-    		 Software Engineering for Data Scientists in Python
-    		 Unit Testing for Data Science in Python
-    		 Object-Oriented Programming in Python
-    
-    	 Marketing Analytics, Python
-    		 Analyzing Marketing Campaigns with pandas
-    		 Analyzing Social Media Data in Python
-    		 Market Basket Analysis in Python
-    		 Machine Learning for Marketing in Python
-    		 Customer Segmentation in Python
-    		 Marketing Analytics: Predicting Customer Churn in Python
-    		 Customer Analytics and A/B Testing in Python
-    
-    	 Deep Learning, Python
-    		 Introduction to Deep Learning in Python
-    		 Introduction to TensorFlow in Python
-    		 Introduction to Deep Learning with PyTorch
-    		 Introduction to Deep Learning with Keras
-    		 Advanced Deep Learning with Keras
-    
-    	 Natural Language Processing, Python
-    		 Introduction to Natural Language Processing in Python
-    		 Sentiment Analysis in Python
-    		 Building Chatbots in Python
-    		 Advanced NLP with spaCy
-    		 Spoken Language Processing in Python
-    		 Feature Engineering for NLP in Python
-    
-    	 Deep Learning for NLP, Python
-    		 Recurrent Neural Networks for Language Modeling in Python
-    		 Machine Translation in Python
-    		 Natural Language Generation in Python
-    
-    	 Finance Fundamentals, Python
-    		 Introduction to Python for Finance
-    		 Intermediate Python for Finance
-    		 Introduction to Financial Concepts in Python
-    		 Manipulating Time Series Data in Python
-    		 Importing and Managing Financial Data in Python
-    		 Introduction to Portfolio Analysis in Python
-    
-    	 Applied Finance, Python
-    		 Introduction to Portfolio Risk Management in Python
-    		 Quantitative Risk Management in Python
-    		 Credit Risk Modeling in Python
-    		 GARCH Models in Python
-    
-    	 Data Analyst, Python
-    		 Introduction to Data Science in Python
-    		 Intermediate Python
-    		 Data Manipulation with pandas
-    		 Joining Data with pandas
-    		 Introduction to Data Visualization with Seaborn
-    		 Data Manipulation with Python
-    		 Exploratory Data Analysis in Python
-    		 Introduction to Statistics in Python
-    
-    	 Data Scientist, Python
-    		 Introduction to Python
-    		 Intermediate Python
-    		 Investigating Netflix Movies and Guest Stars in The Office
-    		 Data Manipulation with pandas
-    		 Joining Data with pandas
-    		 The GitHub History of the Scala Language
-    		 Introduction to Data Visualization with Matplotlib
-    		 Introduction to Data Visualization with Seaborn
-    		 Introduction to NumPy
-    		 Python Data Science Toolbox (Part 1)
-    		 The Android App Market on Google Play
-    		 Python Data Science Toolbox (Part 2)
-    		 Intermediate Data Visualization with Seaborn
-    		 A Visual History of Nobel Prize Winners
-    		 Data Manipulation with Python
-    		 Introduction to Importing Data in Python
-    		 Intermediate Importing Data in Python
-    		 Cleaning Data in Python
-    		 Working with Dates and Times in Python
-    		 Importing & Cleaning Data with Python
-    		 Writing Functions in Python
-    		 Python Programming
-    		 Exploratory Data Analysis in Python
-    		 Analyzing Police Activity with pandas
-    		 Introduction to Statistics in Python
-    		 Introduction to Regression with statsmodels in Python
-    		 Sampling in Python
-    		 Hypothesis Testing in Python
-    		 Dr. Semmelweis and the Discovery of Handwashing
-    		 Supervised Learning with scikit-learn
-    		 Predicting Credit Card Approvals
-    
-    	 Python Programmer, Python
-    		 Introduction to Data Science in Python
-    		 Data Manipulation with pandas
-    		 Python Data Science Toolbox (Part 1)
-    		 Python Data Science Toolbox (Part 2)
-    		 Data Types for Data Science in Python
-    		 Writing Efficient Python Code
-    		 Working with Dates and Times in Python
-    		 Regular Expressions in Python
-    		 Web Scraping in Python
-    		 Writing Functions in Python
-    		 Introduction to Shell
-    		 Software Engineering for Data Scientists in Python
-    		 Developing Python Packages
-    		 Unit Testing for Data Science in Python
-    		 Object-Oriented Programming in Python
-    
-    	 Machine Learning Scientist, Python
-    		 Supervised Learning with scikit-learn
-    		 Unsupervised Learning in Python
-    		 Linear Classifiers in Python
-    		 Machine Learning with Tree-Based Models in Python
-    		 Extreme Gradient Boosting with XGBoost
-    		 Cluster Analysis in Python
-    		 Dimensionality Reduction in Python
-    		 Preprocessing for Machine Learning in Python
-    		 Machine Learning for Time Series Data in Python
-    		 Feature Engineering for Machine Learning in Python
-    		 Model Validation in Python
-    		 Machine Learning Fundamentals in Python
-    		 Introduction to Natural Language Processing in Python
-    		 Feature Engineering for NLP in Python
-    		 Introduction to TensorFlow in Python
-    		 Introduction to Deep Learning in Python
-    		 Introduction to Deep Learning with Keras
-    		 Advanced Deep Learning with Keras
-    		 Image Processing in Python
-    		 Image Processing with Keras in Python
-    		 Hyperparameter Tuning in Python
-    		 Introduction to PySpark
-    		 Machine Learning with PySpark
-    
-    	 Data Engineer, Python
-    		 Data Engineering for Everyone
-    		 Python Programming
-    		 Introduction to Data Engineering
-    		 Streamlined Data Ingestion with pandas
-    		 Writing Efficient Python Code
-    		 Writing Functions in Python
-    		 Introduction to Shell
-    		 Data Processing in Shell
-    		 Introduction to Bash Scripting
-    		 Unit Testing for Data Science in Python
-    		 Object-Oriented Programming in Python
-    		 Introduction to Airflow in Python
-    		 Introduction to PySpark
-    		 Introduction to AWS Boto in Python
-    		 Data Analysis in SQL (PostgreSQL)
-    		 Introduction to Relational Databases in SQL
-    		 Database Design
-    		 Introduction to Scala
-    		 Big Data Fundamentals with PySpark
-    
-    
-    Courses for Tableau:
-    	 Tableau Fundamentals, Tableau
-    		 Introduction to Tableau
-    		 Analyzing Data in Tableau
-    		 Creating Dashboards in Tableau
-    		 Case Study: Analyzing Customer Churn in Tableau
-    		 Connecting Data in Tableau
-    
-    
-    Courses for Power BI:
-    	 Power BI Fundamentals, Power BI
-    		 Introduction to Power BI
-    		 Introduction to DAX in Power BI
-    		 Data Visualization in Power BI
-    		 Case Study: Analyzing Job Market Data in Power BI
-    		 Data Preparation in Power BI
-    		 Data Modeling in Power BI
-    
-    	 Data Analyst, Power BI
-    		 Introduction to Power BI
-    		 Introduction to DAX in Power BI
-    		 Data Visualization in Power BI
-    		 Case Study: Analyzing Job Market Data in Power BI
-    		 Case Study: Analyzing Customer Churn in Power BI
-    		 Data Preparation in Power BI
-    		 Data Transformation in Power BI
-    		 Data Modeling in Power BI
-    		 Intermediate Data Modeling in Power BI
-    		 DAX Functions in Power BI
-    		 Intermediate DAX in Power BI
-    		 User-Oriented Design in Power BI
-    		 Exploratory Data Analysis in Power BI
-    		 Trend Analysis in Power BI
-    		 Reports in Power BI
-    		 Report Design in Power BI
-    		 Data Connections in Power BI
-    		 Deploying and Maintaining Assets in Power BI
-    
-    
-    Courses for R:
-    	 R Programming, R
-    		 Introduction to R
-    		 Intermediate R
-    		 Writing Efficient R Code
-    		 Introduction to Writing Functions in R
-    		 Object-Oriented Programming with S3 and R6 in R
-    
-    	 Importing & Cleaning Data, R
-    		 Introduction to Importing Data in R
-    		 Intermediate Importing Data in R
-    		 Cleaning Data in R
-    		 Reshaping Data with tidyr
-    		 Exploring the NYC Airbnb Market
-    
-    	 Data Visualization, R
-    		 Introduction to Data Visualization with ggplot2
-    		 Intermediate Data Visualization with ggplot2
-    		 Visualization Best Practices in R
-    
-    	 Data Manipulation, R
-    		 Data Manipulation with dplyr 
-    		 Joining Data with dplyr
-    		 Case Study: Exploratory Data Analysis in R
-    		 Data Manipulation with data.table in R
-    		 Joining Data with data.table in R
-    
-    	 Statistics Fundamentals, R
-    		 Introduction to Statistics in R
-    		 Introduction to Regression in R
-    		 Intermediate Regression in R
-    		 Sampling in R
-    		 Hypothesis Testing in R
-    
-    	 Time Series, R
-    		 Manipulating Time Series Data with xts and zoo in R
-    		 Time Series Analysis in R
-    		 ARIMA Models in R
-    		 Forecasting in R
-    		 Visualizing Time Series Data in R
-    		 Case Studies: Manipulating Time Series Data in R
-    
-    	 Applied Finance, R
-    		 Quantitative Risk Management in R
-    		 Equity Valuation in R
-    		 Life Insurance Products Valuation in R
-    		 Bond Valuation and Analysis in R
-    		 Financial Trading in R
-    		 Credit Risk Modeling in R
-    		 GARCH Models in R
-    
-    	 Finance Fundamentals, R
-    		 Introduction to R for Finance
-    		 Intermediate R for Finance
-    		 Manipulating Time Series Data with xts and zoo in R
-    		 Importing and Managing Financial Data in R
-    		 Introduction to Portfolio Analysis in R
-    		 Intermediate Portfolio Analysis in R
-    
-    	 Machine Learning Fundamentals, R
-    		 Supervised Learning in R: Classification
-    		 Supervised Learning in R: Regression
-    		 Unsupervised Learning in R
-    		 Machine Learning with caret in R
-    		 Modeling with tidymodels in R
-    		 Machine Learning with Tree-Based Models in R
-    
-    	 Text Mining, R
-    		 Introduction to Text Analysis in R
-    		 String Manipulation with stringr in R
-    		 Text Mining with Bag-of-Words in R
-    		 Sentiment Analysis in R
-    
-    	 Spatial Data, R
-    		 Visualizing Geospatial Data in R
-    		 Spatial Analysis with sf and raster in R
-    		 Spatial Statistics in R
-    		 Interactive Maps with leaflet in R
-    
-    	 Shiny Fundamentals, R
-    		 Building Web Applications with Shiny in R
-    		 Case Studies: Building Web Applications with Shiny in R
-    		 Building Dashboards with shinydashboard
-    		 Building Dashboards with flexdashboard
-    
-    	 Big Data, R
-    		 Writing Efficient R Code
-    		 Visualizing Big Data with Trelliscope in R
-    		 Scalable Data Processing in R
-    		 Introduction to Spark with sparklyr in R
-    
-    	 Tidyverse Fundamentals, R
-    		 Introduction to the Tidyverse
-    		 Reshaping Data with tidyr
-    		 Dr. Semmelweis and the Discovery of Handwashing
-    		 Modeling with Data in the Tidyverse
-    		 Communicating with Data in the Tidyverse
-    		 Categorical Data in the Tidyverse
-    
-    	 Network Analysis, R
-    		 Network Analysis in R
-    		 Predictive Analytics using Networked Data in R
-    		 Network Analysis in the Tidyverse
-    		 Case Studies: Network Analysis in R
-    
-    	 Supervised Machine Learning, R
-    		 Machine Learning in the Tidyverse
-    		 Intermediate Regression in R
-    		 Modeling with tidymodels in R
-    		 Machine Learning with Tree-Based Models in R
-    		 Support Vector Machines in R
-    		 Hyperparameter Tuning in R
-    
-    	 Interactive Data Visualization, R
-    		 Interactive Maps with leaflet in R
-    		 Interactive Data Visualization with plotly in R
-    		 Intermediate Interactive Data Visualization with plotly in R
-    		 Visualizing Big Data with Trelliscope in R
-    
-    	 Unsupervised Machine Learning, R
-    		 Unsupervised Learning in R
-    		 Cluster Analysis in R
-    		 Factor Analysis in R
-    
-    	 Marketing Analytics, R
-    		 Introduction to Text Analysis in R
-    		 Analyzing Social Media Data in R
-    		 Market Basket Analysis in R
-    		 Machine Learning for Marketing Analytics in R
-    		 Choice Modeling for Marketing in R
-    		 Building Response Models in R
-    
-    	 Statistical Inference, R
-    		 Foundations of Inference
-    		 Inference for Categorical Data in R
-    		 Inference for Numerical Data in R
-    		 Inference for Linear Regression in R
-    
-    	 Intermediate Tidyverse Toolbox, R
-    		 Dealing With Missing Data in R
-    		 Foundations of Functional Programming with purrr
-    		 Intermediate Functional Programming with purrr
-    		 Machine Learning in the Tidyverse
-    
-    	 Analyzing Genomic Data, R
-    		 Introduction to Bioconductor in R
-    		 RNA-Seq with Bioconductor in R
-    		 Differential Expression Analysis with limma in R
-    		 ChIP-seq with Bioconductor in R
-    
-    	 Data Analyst, R
-    		 Introduction to R
-    		 Introduction to the Tidyverse
-    		 Data Manipulation with dplyr 
-    		 Joining Data with dplyr
-    		 Introduction to Data Visualization with ggplot2
-    		 Data Manipulation with R
-    		 Exploratory Data Analysis in R
-    		 Introduction to Statistics in R
-    
-    	 Data Scientist, R
-    		 Introduction to R
-    		 Intermediate R
-    		 Introduction to the Tidyverse
-    		 Data Manipulation with dplyr 
-    		 Joining Data with dplyr
-    		 Introduction to Data Visualization with ggplot2
-    		 Intermediate Data Visualization with ggplot2
-    		 Data Manipulation with R
-    		 Reporting with R Markdown
-    		 Introduction to Importing Data in R
-    		 Intermediate Importing Data in R
-    		 Cleaning Data in R
-    		 Working with Dates and Times in R
-    		 Importing & Cleaning Data with R
-    		 Introduction to Writing Functions in R
-    		 R Programming
-    		 Exploratory Data Analysis in R
-    		 Case Study: Exploratory Data Analysis in R
-    		 Introduction to Statistics in R
-    		 Introduction to Regression in R
-    		 Intermediate Regression in R
-    		 Supervised Learning in R: Classification
-    
-    	 R Programmer, R
-    		 Introduction to the Tidyverse
-    		 Dr. Semmelweis and the Discovery of Handwashing
-    		 Data Manipulation with dplyr 
-    		 Writing Efficient R Code
-    		 Working with Dates and Times in R
-    		 Drunken Datetimes in Ames, Iowa
-    		 String Manipulation with stringr in R
-    		 Data Manipulation with R
-    		 Web Scraping in R
-    		 Introduction to Writing Functions in R
-    		 Clustering Bustabit Gambling Behavior
-    		 Introduction to Shell
-    		 Defensive R Programming
-    		 Developing R Packages
-    
-    	 Quantitative Analyst, R
-    		 Introduction to R for Finance
-    		 Intermediate R for Finance
-    		 Manipulating Time Series Data with xts and zoo in R
-    		 Importing and Managing Financial Data in R
-    		 Time Series Analysis in R
-    		 ARIMA Models in R
-    		 Case Studies: Manipulating Time Series Data in R
-    		 Forecasting in R
-    		 Visualizing Time Series Data in R
-    		 Introduction to Portfolio Analysis in R
-    		 Intermediate Portfolio Analysis in R
-    		 Bond Valuation and Analysis in R
-    		 Credit Risk Modeling in R
-    		 Quantitative Risk Management in R
-    		 Financial Trading in R
-    
-    	 Statistician, R
-    		 Introduction to Statistics in R
-    		 Foundations of Probability in R
-    		 Introduction to Regression in R
-    		 Intermediate Regression in R
-    		 Sampling in R
-    		 Hypothesis Testing in R
-    		 Experimental Design in R
-    		 Analyzing Survey Data in R
-    		 Hierarchical and Mixed Effects Models in R
-    		 Survival Analysis in R
-    		 Fundamentals of Bayesian Data Analysis in R
-    		 Factor Analysis in R
-    		 Foundations of Inference
-    
-    	 Machine Learning Scientist, R
-    		 Supervised Learning in R: Classification
-    		 Supervised Learning in R: Regression
-    		 Unsupervised Learning in R
-    		 Machine Learning in the Tidyverse
-    		 Intermediate Regression in R
-    		 Cluster Analysis in R
-    		 Machine Learning with caret in R
-    		 Modeling with tidymodels in R
-    		 Machine Learning with Tree-Based Models in R
-    		 Machine Learning Fundamentals in R
-    		 Support Vector Machines in R
-    		 Fundamentals of Bayesian Data Analysis in R
-    		 Hyperparameter Tuning in R
-    		 Bayesian Regression Modeling with rstanarm
-    
-    
-    Courses for Spreadsheet:
-    	 Spreadsheet Fundamentals, Spreadsheet
-    		 Data Analysis in Spreadsheets
-    		 Intermediate Spreadsheets
-    		 Pivot Tables in Spreadsheets
-    		 Data Visualization in Spreadsheets
-    
-    	 Intermediate Spreadsheets, Spreadsheet
-    		 Introduction to Statistics in Spreadsheets
-    		 Error and Uncertainty in Spreadsheets
-    		 Marketing Analytics in Spreadsheets
-    
-    	 Finance Fundamentals, Spreadsheet
-    		 Financial Analytics in Spreadsheets
-    		 Financial Modeling in Spreadsheets
-    		 Loan Amortization in Spreadsheets
-    
-    
-    Courses for SQL:
-    	 SQL Fundamentals, SQL
-    		 Introduction to SQL
-    		 Joining Data in SQL
-    		 Intermediate SQL
-    		 PostgreSQL Summary Stats and Window Functions
-    		 Functions for Manipulating Data in PostgreSQL
-    
-    	 SQL Server Fundamentals, SQL
-    		 Introduction to SQL Server
-    		 Joining Data in SQL
-    		 Intermediate SQL Server
-    		 Time Series Analysis in SQL Server
-    		 Functions for Manipulating Data in SQL Server
-    
-    	 SQL for Business Analysts, SQL
-    		 Exploratory Data Analysis in SQL
-    		 Data-Driven Decision Making in SQL
-    		 Applying SQL to Real-World Problems
-    		 Analyzing Business Data in SQL
-    		 Reporting in SQL
-    
-    	 SQL Server for Database Administrators, SQL
-    		 Introduction to Relational Databases in SQL
-    		 Database Design
-    		 Transactions and Error Handling in SQL Server
-    		 Writing Functions and Stored Procedures in SQL Server
-    		 Building and Optimizing Triggers in SQL Server
-    		 Improving Query Performance in SQL Server
-    
-    	 SQL for Database Administrators, SQL
-    		 Introduction to Relational Databases in SQL
-    		 Database Design
-    		 Creating PostgreSQL Databases
-    		 Improving Query Performance in PostgreSQL
-    
-    	 SQL Server Developer, SQL
-    		 Introduction to SQL Server
-    		 Introduction to Relational Databases in SQL
-    		 Intermediate SQL Server
-    		 Time Series Analysis in SQL Server
-    		 Functions for Manipulating Data in SQL Server
-    		 Database Design
-    		 Transactions and Error Handling in SQL Server
-    		 Writing Functions and Stored Procedures in SQL Server
-    		 Building and Optimizing Triggers in SQL Server
-    		 Improving Query Performance in SQL Server
-    
-    	 Data Analyst, SQL
-    		 Data Visualization for Everyone
-    		 Introduction to SQL
-    		 Joining Data in SQL
-    		 Intermediate SQL
-    		 PostgreSQL Summary Stats and Window Functions
-    		 Functions for Manipulating Data in PostgreSQL
-    		 Exploratory Data Analysis in SQL
-    		 Data-Driven Decision Making in SQL
-    		 Data Communication Concepts
-    
-    
 
 ### Useful dictionaries
 
@@ -1452,7 +490,8 @@ for key in complete_tracks:
     tech = key.split(",")[1].strip()
     # Add the technology to the dictionary
     tracks_tech[key] = tech
-tracks_tech
+# Show the first few tracks and their technologies
+{k: tracks_tech[k] for k in list(tracks_tech)[:4]}
 ```
 
 
@@ -1461,68 +500,7 @@ tracks_tech
     {'R Programming, R': 'R',
      'Importing & Cleaning Data, R': 'R',
      'Data Visualization, R': 'R',
-     'Data Manipulation, R': 'R',
-     'Statistics Fundamentals, R': 'R',
-     'Python Fundamentals, Python': 'Python',
-     'Importing & Cleaning Data, Python': 'Python',
-     'Data Manipulation, Python': 'Python',
-     'Time Series, R': 'R',
-     'Applied Finance, R': 'R',
-     'Finance Fundamentals, R': 'R',
-     'Machine Learning Fundamentals, R': 'R',
-     'Machine Learning Fundamentals, Python': 'Python',
-     'Text Mining, R': 'R',
-     'Spatial Data, R': 'R',
-     'Shiny Fundamentals, R': 'R',
-     'Time Series, Python': 'Python',
-     'Big Data, R': 'R',
-     'Tidyverse Fundamentals, R': 'R',
-     'Network Analysis, R': 'R',
-     'Supervised Machine Learning, R': 'R',
-     'Interactive Data Visualization, R': 'R',
-     'SQL Fundamentals, SQL': 'SQL',
-     'Statistics Fundamentals, Python': 'Python',
-     'Unsupervised Machine Learning, R': 'R',
-     'Marketing Analytics, R': 'R',
-     'Statistical Inference, R': 'R',
-     'Data Visualization, Python': 'Python',
-     'Intermediate Tidyverse Toolbox, R': 'R',
-     'SQL Server Fundamentals, SQL': 'SQL',
-     'Image Processing, Python': 'Python',
-     'Spreadsheet Fundamentals, Spreadsheet': 'Spreadsheet',
-     'Python Toolbox, Python': 'Python',
-     'Analyzing Genomic Data, R': 'R',
-     'Big Data with PySpark, Python': 'Python',
-     'Python Programming, Python': 'Python',
-     'Data Skills for Business, Theory': 'Theory',
-     'Marketing Analytics, Python': 'Python',
-     'SQL for Business Analysts, SQL': 'SQL',
-     'SQL Server for Database Administrators, SQL': 'SQL',
-     'SQL for Database Administrators, SQL': 'SQL',
-     'Intermediate Spreadsheets, Spreadsheet': 'Spreadsheet',
-     'Deep Learning, Python': 'Python',
-     'Data Literacy Fundamentals, Theory': 'Theory',
-     'Natural Language Processing, Python': 'Python',
-     'Deep Learning for NLP, Python': 'Python',
-     'Finance Fundamentals, Python': 'Python',
-     'Applied Finance, Python': 'Python',
-     'Finance Fundamentals, Spreadsheet': 'Spreadsheet',
-     'Tableau Fundamentals, Tableau': 'Tableau',
-     'Power BI Fundamentals, Power BI': 'Power BI',
-     'Data Analyst, R': 'R',
-     'Data Scientist, R': 'R',
-     'Data Analyst, Python': 'Python',
-     'Data Scientist, Python': 'Python',
-     'Python Programmer, Python': 'Python',
-     'R Programmer, R': 'R',
-     'Quantitative Analyst, R': 'R',
-     'Statistician, R': 'R',
-     'Machine Learning Scientist, Python': 'Python',
-     'Data Engineer, Python': 'Python',
-     'SQL Server Developer, SQL': 'SQL',
-     'Data Analyst, Power BI': 'Power BI',
-     'Data Analyst, SQL': 'SQL',
-     'Machine Learning Scientist, R': 'R'}
+     'Data Manipulation, R': 'R'}
 
 
 
@@ -1538,7 +516,8 @@ for key in complete_tracks:
             course_counts[course] = 1
 # Sort the courses by the number of tracks they are in, and convert to a dictionary with the course as the key and the number of tracks as the value
 course_counts = {x: course_counts[x] for x in sorted(course_counts, key = course_counts.get, reverse = True)}
-course_counts
+# Show the first few courses and their counts
+{k: course_counts[k] for k in list(course_counts)[:4]}
 ```
 
 
@@ -1547,292 +526,7 @@ course_counts
     {'Intermediate Regression in R': 5,
      'Data Manipulation with dplyr ': 4,
      'Introduction to Statistics in R': 4,
-     'Data Manipulation with pandas': 4,
-     'Introduction to the Tidyverse': 4,
-     'Writing Efficient Python Code': 4,
-     'Writing Functions in Python': 4,
-     'Introduction to Relational Databases in SQL': 4,
-     'Database Design': 4,
-     'Introduction to R': 3,
-     'Writing Efficient R Code': 3,
-     'Introduction to Writing Functions in R': 3,
-     'Introduction to Data Visualization with ggplot2': 3,
-     'Joining Data with dplyr': 3,
-     'Introduction to Regression in R': 3,
-     'Intermediate Python': 3,
-     'Python Data Science Toolbox (Part 1)': 3,
-     'Python Data Science Toolbox (Part 2)': 3,
-     'Joining Data with pandas': 3,
-     'Manipulating Time Series Data with xts and zoo in R': 3,
-     'Supervised Learning in R: Classification': 3,
-     'Unsupervised Learning in R': 3,
-     'Modeling with tidymodels in R': 3,
-     'Machine Learning with Tree-Based Models in R': 3,
-     'Supervised Learning with scikit-learn': 3,
-     'Introduction to Deep Learning in Python': 3,
-     'Dr. Semmelweis and the Discovery of Handwashing': 3,
-     'Machine Learning in the Tidyverse': 3,
-     'Joining Data in SQL': 3,
-     'Introduction to Statistics in Python': 3,
-     'Introduction to Data Visualization with Seaborn': 3,
-     'Working with Dates and Times in Python': 3,
-     'Introduction to PySpark': 3,
-     'Unit Testing for Data Science in Python': 3,
-     'Object-Oriented Programming in Python': 3,
-     'Introduction to Data Science in Python': 3,
-     'Data Manipulation with R': 3,
-     'Introduction to Shell': 3,
-     'Intermediate R': 2,
-     'Introduction to Importing Data in R': 2,
-     'Intermediate Importing Data in R': 2,
-     'Cleaning Data in R': 2,
-     'Reshaping Data with tidyr': 2,
-     'Intermediate Data Visualization with ggplot2': 2,
-     'Case Study: Exploratory Data Analysis in R': 2,
-     'Sampling in R': 2,
-     'Hypothesis Testing in R': 2,
-     'Introduction to Python': 2,
-     'Introduction to Importing Data in Python': 2,
-     'Intermediate Importing Data in Python': 2,
-     'Cleaning Data in Python': 2,
-     'Analyzing Police Activity with pandas': 2,
-     'Time Series Analysis in R': 2,
-     'ARIMA Models in R': 2,
-     'Forecasting in R': 2,
-     'Visualizing Time Series Data in R': 2,
-     'Case Studies: Manipulating Time Series Data in R': 2,
-     'Quantitative Risk Management in R': 2,
-     'Bond Valuation and Analysis in R': 2,
-     'Financial Trading in R': 2,
-     'Credit Risk Modeling in R': 2,
-     'Introduction to R for Finance': 2,
-     'Intermediate R for Finance': 2,
-     'Importing and Managing Financial Data in R': 2,
-     'Introduction to Portfolio Analysis in R': 2,
-     'Intermediate Portfolio Analysis in R': 2,
-     'Supervised Learning in R: Regression': 2,
-     'Machine Learning with caret in R': 2,
-     'Unsupervised Learning in Python': 2,
-     'Linear Classifiers in Python': 2,
-     'Introduction to Text Analysis in R': 2,
-     'String Manipulation with stringr in R': 2,
-     'Interactive Maps with leaflet in R': 2,
-     'Manipulating Time Series Data in Python': 2,
-     'Machine Learning for Time Series Data in Python': 2,
-     'Visualizing Big Data with Trelliscope in R': 2,
-     'Support Vector Machines in R': 2,
-     'Hyperparameter Tuning in R': 2,
-     'Introduction to SQL': 2,
-     'Intermediate SQL': 2,
-     'PostgreSQL Summary Stats and Window Functions': 2,
-     'Functions for Manipulating Data in PostgreSQL': 2,
-     'Introduction to Regression with statsmodels in Python': 2,
-     'Sampling in Python': 2,
-     'Hypothesis Testing in Python': 2,
-     'Cluster Analysis in R': 2,
-     'Factor Analysis in R': 2,
-     'Foundations of Inference': 2,
-     'Introduction to Data Visualization with Matplotlib': 2,
-     'Introduction to SQL Server': 2,
-     'Intermediate SQL Server': 2,
-     'Time Series Analysis in SQL Server': 2,
-     'Functions for Manipulating Data in SQL Server': 2,
-     'Image Processing in Python': 2,
-     'Image Processing with Keras in Python': 2,
-     'Regular Expressions in Python': 2,
-     'Big Data Fundamentals with PySpark': 2,
-     'Machine Learning with PySpark': 2,
-     'Software Engineering for Data Scientists in Python': 2,
-     'Introduction to Statistics in Spreadsheets': 2,
-     'Exploratory Data Analysis in SQL': 2,
-     'Data-Driven Decision Making in SQL': 2,
-     'Transactions and Error Handling in SQL Server': 2,
-     'Writing Functions and Stored Procedures in SQL Server': 2,
-     'Building and Optimizing Triggers in SQL Server': 2,
-     'Improving Query Performance in SQL Server': 2,
-     'Introduction to TensorFlow in Python': 2,
-     'Introduction to Deep Learning with Keras': 2,
-     'Advanced Deep Learning with Keras': 2,
-     'Data Visualization for Everyone': 2,
-     'Data Engineering for Everyone': 2,
-     'Introduction to Natural Language Processing in Python': 2,
-     'Feature Engineering for NLP in Python': 2,
-     'Introduction to Power BI': 2,
-     'Introduction to DAX in Power BI': 2,
-     'Data Visualization in Power BI': 2,
-     'Case Study: Analyzing Job Market Data in Power BI': 2,
-     'Data Preparation in Power BI': 2,
-     'Data Modeling in Power BI': 2,
-     'Exploratory Data Analysis in R': 2,
-     'Working with Dates and Times in R': 2,
-     'Data Manipulation with Python': 2,
-     'Exploratory Data Analysis in Python': 2,
-     'Python Programming': 2,
-     'Fundamentals of Bayesian Data Analysis in R': 2,
-     'Object-Oriented Programming with S3 and R6 in R': 1,
-     'Exploring the NYC Airbnb Market': 1,
-     'Visualization Best Practices in R': 1,
-     'Data Manipulation with data.table in R': 1,
-     'Joining Data with data.table in R': 1,
-     'Reshaping Data with pandas': 1,
-     'Introduction to Databases in Python': 1,
-     'Equity Valuation in R': 1,
-     'Life Insurance Products Valuation in R': 1,
-     'GARCH Models in R': 1,
-     'Text Mining with Bag-of-Words in R': 1,
-     'Sentiment Analysis in R': 1,
-     'Visualizing Geospatial Data in R': 1,
-     'Spatial Analysis with sf and raster in R': 1,
-     'Spatial Statistics in R': 1,
-     'Building Web Applications with Shiny in R': 1,
-     'Case Studies: Building Web Applications with Shiny in R': 1,
-     'Building Dashboards with shinydashboard': 1,
-     'Building Dashboards with flexdashboard': 1,
-     'Time Series Analysis in Python': 1,
-     'Visualizing Time Series Data in Python': 1,
-     'ARIMA Models in Python': 1,
-     'Scalable Data Processing in R': 1,
-     'Introduction to Spark with sparklyr in R': 1,
-     'Modeling with Data in the Tidyverse': 1,
-     'Communicating with Data in the Tidyverse': 1,
-     'Categorical Data in the Tidyverse': 1,
-     'Network Analysis in R': 1,
-     'Predictive Analytics using Networked Data in R': 1,
-     'Network Analysis in the Tidyverse': 1,
-     'Case Studies: Network Analysis in R': 1,
-     'Interactive Data Visualization with plotly in R': 1,
-     'Intermediate Interactive Data Visualization with plotly in R': 1,
-     'Intermediate Regression with statsmodels in Python': 1,
-     'Analyzing Social Media Data in R': 1,
-     'Market Basket Analysis in R': 1,
-     'Machine Learning for Marketing Analytics in R': 1,
-     'Choice Modeling for Marketing in R': 1,
-     'Building Response Models in R': 1,
-     'Inference for Categorical Data in R': 1,
-     'Inference for Numerical Data in R': 1,
-     'Inference for Linear Regression in R': 1,
-     'Improving Your Data Visualizations in Python': 1,
-     'Visualizing Geospatial Data in Python': 1,
-     'Dealing With Missing Data in R': 1,
-     'Foundations of Functional Programming with purrr': 1,
-     'Intermediate Functional Programming with purrr': 1,
-     'Biomedical Image Analysis in Python': 1,
-     'Data Analysis in Spreadsheets': 1,
-     'Intermediate Spreadsheets': 1,
-     'Pivot Tables in Spreadsheets': 1,
-     'Data Visualization in Spreadsheets': 1,
-     'Dealing with Missing Data in Python': 1,
-     'Introduction to Bioconductor in R': 1,
-     'RNA-Seq with Bioconductor in R': 1,
-     'Differential Expression Analysis with limma in R': 1,
-     'ChIP-seq with Bioconductor in R': 1,
-     'Cleaning Data with PySpark': 1,
-     'Feature Engineering with PySpark': 1,
-     'Building Recommendation Engines with PySpark': 1,
-     'Writing Efficient Code with pandas': 1,
-     'Data Science for Business': 1,
-     'Machine Learning for Business': 1,
-     'Data-Driven Decision Making for Business': 1,
-     'Marketing Analytics for Business': 1,
-     'AI Fundamentals': 1,
-     'Analyzing Marketing Campaigns with pandas': 1,
-     'Analyzing Social Media Data in Python': 1,
-     'Market Basket Analysis in Python': 1,
-     'Machine Learning for Marketing in Python': 1,
-     'Customer Segmentation in Python': 1,
-     'Marketing Analytics: Predicting Customer Churn in Python': 1,
-     'Customer Analytics and A/B Testing in Python': 1,
-     'Applying SQL to Real-World Problems': 1,
-     'Analyzing Business Data in SQL': 1,
-     'Reporting in SQL': 1,
-     'Creating PostgreSQL Databases': 1,
-     'Improving Query Performance in PostgreSQL': 1,
-     'Error and Uncertainty in Spreadsheets': 1,
-     'Marketing Analytics in Spreadsheets': 1,
-     'Introduction to Deep Learning with PyTorch': 1,
-     'Data Science for Everyone': 1,
-     'Machine Learning for Everyone': 1,
-     'Cloud Computing for Everyone': 1,
-     'Sentiment Analysis in Python': 1,
-     'Building Chatbots in Python': 1,
-     'Advanced NLP with spaCy': 1,
-     'Spoken Language Processing in Python': 1,
-     'Recurrent Neural Networks for Language Modeling in Python': 1,
-     'Machine Translation in Python': 1,
-     'Natural Language Generation in Python': 1,
-     'Introduction to Python for Finance': 1,
-     'Intermediate Python for Finance': 1,
-     'Introduction to Financial Concepts in Python': 1,
-     'Importing and Managing Financial Data in Python': 1,
-     'Introduction to Portfolio Analysis in Python': 1,
-     'Introduction to Portfolio Risk Management in Python': 1,
-     'Quantitative Risk Management in Python': 1,
-     'Credit Risk Modeling in Python': 1,
-     'GARCH Models in Python': 1,
-     'Financial Analytics in Spreadsheets': 1,
-     'Financial Modeling in Spreadsheets': 1,
-     'Loan Amortization in Spreadsheets': 1,
-     'Introduction to Tableau': 1,
-     'Analyzing Data in Tableau': 1,
-     'Creating Dashboards in Tableau': 1,
-     'Case Study: Analyzing Customer Churn in Tableau': 1,
-     'Connecting Data in Tableau': 1,
-     'Reporting with R Markdown': 1,
-     'Importing & Cleaning Data with R': 1,
-     'R Programming': 1,
-     'Investigating Netflix Movies and Guest Stars in The Office': 1,
-     'The GitHub History of the Scala Language': 1,
-     'Introduction to NumPy': 1,
-     'The Android App Market on Google Play': 1,
-     'Intermediate Data Visualization with Seaborn': 1,
-     'A Visual History of Nobel Prize Winners': 1,
-     'Importing & Cleaning Data with Python': 1,
-     'Predicting Credit Card Approvals': 1,
-     'Data Types for Data Science in Python': 1,
-     'Web Scraping in Python': 1,
-     'Developing Python Packages': 1,
-     'Drunken Datetimes in Ames, Iowa': 1,
-     'Web Scraping in R': 1,
-     'Clustering Bustabit Gambling Behavior': 1,
-     'Defensive R Programming': 1,
-     'Developing R Packages': 1,
-     'Foundations of Probability in R': 1,
-     'Experimental Design in R': 1,
-     'Analyzing Survey Data in R': 1,
-     'Hierarchical and Mixed Effects Models in R': 1,
-     'Survival Analysis in R': 1,
-     'Machine Learning with Tree-Based Models in Python': 1,
-     'Extreme Gradient Boosting with XGBoost': 1,
-     'Cluster Analysis in Python': 1,
-     'Dimensionality Reduction in Python': 1,
-     'Preprocessing for Machine Learning in Python': 1,
-     'Feature Engineering for Machine Learning in Python': 1,
-     'Model Validation in Python': 1,
-     'Machine Learning Fundamentals in Python': 1,
-     'Hyperparameter Tuning in Python': 1,
-     'Introduction to Data Engineering': 1,
-     'Streamlined Data Ingestion with pandas': 1,
-     'Data Processing in Shell': 1,
-     'Introduction to Bash Scripting': 1,
-     'Introduction to Airflow in Python': 1,
-     'Introduction to AWS Boto in Python': 1,
-     'Data Analysis in SQL (PostgreSQL)': 1,
-     'Introduction to Scala': 1,
-     'Case Study: Analyzing Customer Churn in Power BI': 1,
-     'Data Transformation in Power BI': 1,
-     'Intermediate Data Modeling in Power BI': 1,
-     'DAX Functions in Power BI': 1,
-     'Intermediate DAX in Power BI': 1,
-     'User-Oriented Design in Power BI': 1,
-     'Exploratory Data Analysis in Power BI': 1,
-     'Trend Analysis in Power BI': 1,
-     'Reports in Power BI': 1,
-     'Report Design in Power BI': 1,
-     'Data Connections in Power BI': 1,
-     'Deploying and Maintaining Assets in Power BI': 1,
-     'Data Communication Concepts': 1,
-     'Machine Learning Fundamentals in R': 1,
-     'Bayesian Regression Modeling with rstanarm': 1}
+     'Data Manipulation with pandas': 4}
 
 
 
@@ -1846,7 +540,8 @@ for key in complete_tracks:
             course_tracks[course].append(key)
         else:
             course_tracks[course] = [key]
-course_tracks
+# Show the first few courses and their tracks
+{k: course_tracks[k] for k in list(course_tracks)[:4]}
 ```
 
 
@@ -1861,445 +556,7 @@ course_tracks
       'R Programmer, R'],
      'Introduction to Writing Functions in R': ['R Programming, R',
       'Data Scientist, R',
-      'R Programmer, R'],
-     'Object-Oriented Programming with S3 and R6 in R': ['R Programming, R'],
-     'Introduction to Importing Data in R': ['Importing & Cleaning Data, R',
-      'Data Scientist, R'],
-     'Intermediate Importing Data in R': ['Importing & Cleaning Data, R',
-      'Data Scientist, R'],
-     'Cleaning Data in R': ['Importing & Cleaning Data, R', 'Data Scientist, R'],
-     'Reshaping Data with tidyr': ['Importing & Cleaning Data, R',
-      'Tidyverse Fundamentals, R'],
-     'Exploring the NYC Airbnb Market': ['Importing & Cleaning Data, R'],
-     'Introduction to Data Visualization with ggplot2': ['Data Visualization, R',
-      'Data Analyst, R',
-      'Data Scientist, R'],
-     'Intermediate Data Visualization with ggplot2': ['Data Visualization, R',
-      'Data Scientist, R'],
-     'Visualization Best Practices in R': ['Data Visualization, R'],
-     'Data Manipulation with dplyr ': ['Data Manipulation, R',
-      'Data Analyst, R',
-      'Data Scientist, R',
-      'R Programmer, R'],
-     'Joining Data with dplyr': ['Data Manipulation, R',
-      'Data Analyst, R',
-      'Data Scientist, R'],
-     'Case Study: Exploratory Data Analysis in R': ['Data Manipulation, R',
-      'Data Scientist, R'],
-     'Data Manipulation with data.table in R': ['Data Manipulation, R'],
-     'Joining Data with data.table in R': ['Data Manipulation, R'],
-     'Introduction to Statistics in R': ['Statistics Fundamentals, R',
-      'Data Analyst, R',
-      'Data Scientist, R',
-      'Statistician, R'],
-     'Introduction to Regression in R': ['Statistics Fundamentals, R',
-      'Data Scientist, R',
-      'Statistician, R'],
-     'Intermediate Regression in R': ['Statistics Fundamentals, R',
-      'Supervised Machine Learning, R',
-      'Data Scientist, R',
-      'Statistician, R',
-      'Machine Learning Scientist, R'],
-     'Sampling in R': ['Statistics Fundamentals, R', 'Statistician, R'],
-     'Hypothesis Testing in R': ['Statistics Fundamentals, R', 'Statistician, R'],
-     'Introduction to Python': ['Python Fundamentals, Python',
-      'Data Scientist, Python'],
-     'Intermediate Python': ['Python Fundamentals, Python',
-      'Data Analyst, Python',
-      'Data Scientist, Python'],
-     'Python Data Science Toolbox (Part 1)': ['Python Fundamentals, Python',
-      'Data Scientist, Python',
-      'Python Programmer, Python'],
-     'Python Data Science Toolbox (Part 2)': ['Python Fundamentals, Python',
-      'Data Scientist, Python',
-      'Python Programmer, Python'],
-     'Introduction to Importing Data in Python': ['Importing & Cleaning Data, Python',
-      'Data Scientist, Python'],
-     'Intermediate Importing Data in Python': ['Importing & Cleaning Data, Python',
-      'Data Scientist, Python'],
-     'Cleaning Data in Python': ['Importing & Cleaning Data, Python',
-      'Data Scientist, Python'],
-     'Reshaping Data with pandas': ['Importing & Cleaning Data, Python'],
-     'Data Manipulation with pandas': ['Data Manipulation, Python',
-      'Data Analyst, Python',
-      'Data Scientist, Python',
-      'Python Programmer, Python'],
-     'Joining Data with pandas': ['Data Manipulation, Python',
-      'Data Analyst, Python',
-      'Data Scientist, Python'],
-     'Analyzing Police Activity with pandas': ['Data Manipulation, Python',
-      'Data Scientist, Python'],
-     'Introduction to Databases in Python': ['Data Manipulation, Python'],
-     'Manipulating Time Series Data with xts and zoo in R': ['Time Series, R',
-      'Finance Fundamentals, R',
-      'Quantitative Analyst, R'],
-     'Time Series Analysis in R': ['Time Series, R', 'Quantitative Analyst, R'],
-     'ARIMA Models in R': ['Time Series, R', 'Quantitative Analyst, R'],
-     'Forecasting in R': ['Time Series, R', 'Quantitative Analyst, R'],
-     'Visualizing Time Series Data in R': ['Time Series, R',
-      'Quantitative Analyst, R'],
-     'Case Studies: Manipulating Time Series Data in R': ['Time Series, R',
-      'Quantitative Analyst, R'],
-     'Quantitative Risk Management in R': ['Applied Finance, R',
-      'Quantitative Analyst, R'],
-     'Equity Valuation in R': ['Applied Finance, R'],
-     'Life Insurance Products Valuation in R': ['Applied Finance, R'],
-     'Bond Valuation and Analysis in R': ['Applied Finance, R',
-      'Quantitative Analyst, R'],
-     'Financial Trading in R': ['Applied Finance, R', 'Quantitative Analyst, R'],
-     'Credit Risk Modeling in R': ['Applied Finance, R',
-      'Quantitative Analyst, R'],
-     'GARCH Models in R': ['Applied Finance, R'],
-     'Introduction to R for Finance': ['Finance Fundamentals, R',
-      'Quantitative Analyst, R'],
-     'Intermediate R for Finance': ['Finance Fundamentals, R',
-      'Quantitative Analyst, R'],
-     'Importing and Managing Financial Data in R': ['Finance Fundamentals, R',
-      'Quantitative Analyst, R'],
-     'Introduction to Portfolio Analysis in R': ['Finance Fundamentals, R',
-      'Quantitative Analyst, R'],
-     'Intermediate Portfolio Analysis in R': ['Finance Fundamentals, R',
-      'Quantitative Analyst, R'],
-     'Supervised Learning in R: Classification': ['Machine Learning Fundamentals, R',
-      'Data Scientist, R',
-      'Machine Learning Scientist, R'],
-     'Supervised Learning in R: Regression': ['Machine Learning Fundamentals, R',
-      'Machine Learning Scientist, R'],
-     'Unsupervised Learning in R': ['Machine Learning Fundamentals, R',
-      'Unsupervised Machine Learning, R',
-      'Machine Learning Scientist, R'],
-     'Machine Learning with caret in R': ['Machine Learning Fundamentals, R',
-      'Machine Learning Scientist, R'],
-     'Modeling with tidymodels in R': ['Machine Learning Fundamentals, R',
-      'Supervised Machine Learning, R',
-      'Machine Learning Scientist, R'],
-     'Machine Learning with Tree-Based Models in R': ['Machine Learning Fundamentals, R',
-      'Supervised Machine Learning, R',
-      'Machine Learning Scientist, R'],
-     'Supervised Learning with scikit-learn': ['Machine Learning Fundamentals, Python',
-      'Data Scientist, Python',
-      'Machine Learning Scientist, Python'],
-     'Unsupervised Learning in Python': ['Machine Learning Fundamentals, Python',
-      'Machine Learning Scientist, Python'],
-     'Linear Classifiers in Python': ['Machine Learning Fundamentals, Python',
-      'Machine Learning Scientist, Python'],
-     'Introduction to Deep Learning in Python': ['Machine Learning Fundamentals, Python',
-      'Deep Learning, Python',
-      'Machine Learning Scientist, Python'],
-     'Introduction to Text Analysis in R': ['Text Mining, R',
-      'Marketing Analytics, R'],
-     'String Manipulation with stringr in R': ['Text Mining, R',
-      'R Programmer, R'],
-     'Text Mining with Bag-of-Words in R': ['Text Mining, R'],
-     'Sentiment Analysis in R': ['Text Mining, R'],
-     'Visualizing Geospatial Data in R': ['Spatial Data, R'],
-     'Spatial Analysis with sf and raster in R': ['Spatial Data, R'],
-     'Spatial Statistics in R': ['Spatial Data, R'],
-     'Interactive Maps with leaflet in R': ['Spatial Data, R',
-      'Interactive Data Visualization, R'],
-     'Building Web Applications with Shiny in R': ['Shiny Fundamentals, R'],
-     'Case Studies: Building Web Applications with Shiny in R': ['Shiny Fundamentals, R'],
-     'Building Dashboards with shinydashboard': ['Shiny Fundamentals, R'],
-     'Building Dashboards with flexdashboard': ['Shiny Fundamentals, R'],
-     'Manipulating Time Series Data in Python': ['Time Series, Python',
-      'Finance Fundamentals, Python'],
-     'Time Series Analysis in Python': ['Time Series, Python'],
-     'Visualizing Time Series Data in Python': ['Time Series, Python'],
-     'ARIMA Models in Python': ['Time Series, Python'],
-     'Machine Learning for Time Series Data in Python': ['Time Series, Python',
-      'Machine Learning Scientist, Python'],
-     'Visualizing Big Data with Trelliscope in R': ['Big Data, R',
-      'Interactive Data Visualization, R'],
-     'Scalable Data Processing in R': ['Big Data, R'],
-     'Introduction to Spark with sparklyr in R': ['Big Data, R'],
-     'Introduction to the Tidyverse': ['Tidyverse Fundamentals, R',
-      'Data Analyst, R',
-      'Data Scientist, R',
-      'R Programmer, R'],
-     'Dr. Semmelweis and the Discovery of Handwashing': ['Tidyverse Fundamentals, R',
-      'Data Scientist, Python',
-      'R Programmer, R'],
-     'Modeling with Data in the Tidyverse': ['Tidyverse Fundamentals, R'],
-     'Communicating with Data in the Tidyverse': ['Tidyverse Fundamentals, R'],
-     'Categorical Data in the Tidyverse': ['Tidyverse Fundamentals, R'],
-     'Network Analysis in R': ['Network Analysis, R'],
-     'Predictive Analytics using Networked Data in R': ['Network Analysis, R'],
-     'Network Analysis in the Tidyverse': ['Network Analysis, R'],
-     'Case Studies: Network Analysis in R': ['Network Analysis, R'],
-     'Machine Learning in the Tidyverse': ['Supervised Machine Learning, R',
-      'Intermediate Tidyverse Toolbox, R',
-      'Machine Learning Scientist, R'],
-     'Support Vector Machines in R': ['Supervised Machine Learning, R',
-      'Machine Learning Scientist, R'],
-     'Hyperparameter Tuning in R': ['Supervised Machine Learning, R',
-      'Machine Learning Scientist, R'],
-     'Interactive Data Visualization with plotly in R': ['Interactive Data Visualization, R'],
-     'Intermediate Interactive Data Visualization with plotly in R': ['Interactive Data Visualization, R'],
-     'Introduction to SQL': ['SQL Fundamentals, SQL', 'Data Analyst, SQL'],
-     'Joining Data in SQL': ['SQL Fundamentals, SQL',
-      'SQL Server Fundamentals, SQL',
-      'Data Analyst, SQL'],
-     'Intermediate SQL': ['SQL Fundamentals, SQL', 'Data Analyst, SQL'],
-     'PostgreSQL Summary Stats and Window Functions': ['SQL Fundamentals, SQL',
-      'Data Analyst, SQL'],
-     'Functions for Manipulating Data in PostgreSQL': ['SQL Fundamentals, SQL',
-      'Data Analyst, SQL'],
-     'Introduction to Statistics in Python': ['Statistics Fundamentals, Python',
-      'Data Analyst, Python',
-      'Data Scientist, Python'],
-     'Introduction to Regression with statsmodels in Python': ['Statistics Fundamentals, Python',
-      'Data Scientist, Python'],
-     'Intermediate Regression with statsmodels in Python': ['Statistics Fundamentals, Python'],
-     'Sampling in Python': ['Statistics Fundamentals, Python',
-      'Data Scientist, Python'],
-     'Hypothesis Testing in Python': ['Statistics Fundamentals, Python',
-      'Data Scientist, Python'],
-     'Cluster Analysis in R': ['Unsupervised Machine Learning, R',
-      'Machine Learning Scientist, R'],
-     'Factor Analysis in R': ['Unsupervised Machine Learning, R',
-      'Statistician, R'],
-     'Analyzing Social Media Data in R': ['Marketing Analytics, R'],
-     'Market Basket Analysis in R': ['Marketing Analytics, R'],
-     'Machine Learning for Marketing Analytics in R': ['Marketing Analytics, R'],
-     'Choice Modeling for Marketing in R': ['Marketing Analytics, R'],
-     'Building Response Models in R': ['Marketing Analytics, R'],
-     'Foundations of Inference': ['Statistical Inference, R', 'Statistician, R'],
-     'Inference for Categorical Data in R': ['Statistical Inference, R'],
-     'Inference for Numerical Data in R': ['Statistical Inference, R'],
-     'Inference for Linear Regression in R': ['Statistical Inference, R'],
-     'Introduction to Data Visualization with Matplotlib': ['Data Visualization, Python',
-      'Data Scientist, Python'],
-     'Introduction to Data Visualization with Seaborn': ['Data Visualization, Python',
-      'Data Analyst, Python',
-      'Data Scientist, Python'],
-     'Improving Your Data Visualizations in Python': ['Data Visualization, Python'],
-     'Visualizing Geospatial Data in Python': ['Data Visualization, Python'],
-     'Dealing With Missing Data in R': ['Intermediate Tidyverse Toolbox, R'],
-     'Foundations of Functional Programming with purrr': ['Intermediate Tidyverse Toolbox, R'],
-     'Intermediate Functional Programming with purrr': ['Intermediate Tidyverse Toolbox, R'],
-     'Introduction to SQL Server': ['SQL Server Fundamentals, SQL',
-      'SQL Server Developer, SQL'],
-     'Intermediate SQL Server': ['SQL Server Fundamentals, SQL',
-      'SQL Server Developer, SQL'],
-     'Time Series Analysis in SQL Server': ['SQL Server Fundamentals, SQL',
-      'SQL Server Developer, SQL'],
-     'Functions for Manipulating Data in SQL Server': ['SQL Server Fundamentals, SQL',
-      'SQL Server Developer, SQL'],
-     'Image Processing in Python': ['Image Processing, Python',
-      'Machine Learning Scientist, Python'],
-     'Biomedical Image Analysis in Python': ['Image Processing, Python'],
-     'Image Processing with Keras in Python': ['Image Processing, Python',
-      'Machine Learning Scientist, Python'],
-     'Data Analysis in Spreadsheets': ['Spreadsheet Fundamentals, Spreadsheet'],
-     'Intermediate Spreadsheets': ['Spreadsheet Fundamentals, Spreadsheet'],
-     'Pivot Tables in Spreadsheets': ['Spreadsheet Fundamentals, Spreadsheet'],
-     'Data Visualization in Spreadsheets': ['Spreadsheet Fundamentals, Spreadsheet'],
-     'Dealing with Missing Data in Python': ['Python Toolbox, Python'],
-     'Working with Dates and Times in Python': ['Python Toolbox, Python',
-      'Data Scientist, Python',
-      'Python Programmer, Python'],
-     'Regular Expressions in Python': ['Python Toolbox, Python',
-      'Python Programmer, Python'],
-     'Writing Efficient Python Code': ['Python Toolbox, Python',
-      'Python Programming, Python',
-      'Python Programmer, Python',
-      'Data Engineer, Python'],
-     'Introduction to Bioconductor in R': ['Analyzing Genomic Data, R'],
-     'RNA-Seq with Bioconductor in R': ['Analyzing Genomic Data, R'],
-     'Differential Expression Analysis with limma in R': ['Analyzing Genomic Data, R'],
-     'ChIP-seq with Bioconductor in R': ['Analyzing Genomic Data, R'],
-     'Introduction to PySpark': ['Big Data with PySpark, Python',
-      'Machine Learning Scientist, Python',
-      'Data Engineer, Python'],
-     'Big Data Fundamentals with PySpark': ['Big Data with PySpark, Python',
-      'Data Engineer, Python'],
-     'Cleaning Data with PySpark': ['Big Data with PySpark, Python'],
-     'Feature Engineering with PySpark': ['Big Data with PySpark, Python'],
-     'Machine Learning with PySpark': ['Big Data with PySpark, Python',
-      'Machine Learning Scientist, Python'],
-     'Building Recommendation Engines with PySpark': ['Big Data with PySpark, Python'],
-     'Writing Efficient Code with pandas': ['Python Programming, Python'],
-     'Writing Functions in Python': ['Python Programming, Python',
-      'Data Scientist, Python',
-      'Python Programmer, Python',
-      'Data Engineer, Python'],
-     'Software Engineering for Data Scientists in Python': ['Python Programming, Python',
-      'Python Programmer, Python'],
-     'Unit Testing for Data Science in Python': ['Python Programming, Python',
-      'Python Programmer, Python',
-      'Data Engineer, Python'],
-     'Object-Oriented Programming in Python': ['Python Programming, Python',
-      'Python Programmer, Python',
-      'Data Engineer, Python'],
-     'Data Science for Business': ['Data Skills for Business, Theory'],
-     'Introduction to Statistics in Spreadsheets': ['Data Skills for Business, Theory',
-      'Intermediate Spreadsheets, Spreadsheet'],
-     'Machine Learning for Business': ['Data Skills for Business, Theory'],
-     'Data-Driven Decision Making for Business': ['Data Skills for Business, Theory'],
-     'Marketing Analytics for Business': ['Data Skills for Business, Theory'],
-     'AI Fundamentals': ['Data Skills for Business, Theory'],
-     'Introduction to Data Science in Python': ['Data Skills for Business, Theory',
-      'Data Analyst, Python',
-      'Python Programmer, Python'],
-     'Analyzing Marketing Campaigns with pandas': ['Marketing Analytics, Python'],
-     'Analyzing Social Media Data in Python': ['Marketing Analytics, Python'],
-     'Market Basket Analysis in Python': ['Marketing Analytics, Python'],
-     'Machine Learning for Marketing in Python': ['Marketing Analytics, Python'],
-     'Customer Segmentation in Python': ['Marketing Analytics, Python'],
-     'Marketing Analytics: Predicting Customer Churn in Python': ['Marketing Analytics, Python'],
-     'Customer Analytics and A/B Testing in Python': ['Marketing Analytics, Python'],
-     'Exploratory Data Analysis in SQL': ['SQL for Business Analysts, SQL',
-      'Data Analyst, SQL'],
-     'Data-Driven Decision Making in SQL': ['SQL for Business Analysts, SQL',
-      'Data Analyst, SQL'],
-     'Applying SQL to Real-World Problems': ['SQL for Business Analysts, SQL'],
-     'Analyzing Business Data in SQL': ['SQL for Business Analysts, SQL'],
-     'Reporting in SQL': ['SQL for Business Analysts, SQL'],
-     'Introduction to Relational Databases in SQL': ['SQL Server for Database Administrators, SQL',
-      'SQL for Database Administrators, SQL',
-      'Data Engineer, Python',
-      'SQL Server Developer, SQL'],
-     'Database Design': ['SQL Server for Database Administrators, SQL',
-      'SQL for Database Administrators, SQL',
-      'Data Engineer, Python',
-      'SQL Server Developer, SQL'],
-     'Transactions and Error Handling in SQL Server': ['SQL Server for Database Administrators, SQL',
-      'SQL Server Developer, SQL'],
-     'Writing Functions and Stored Procedures in SQL Server': ['SQL Server for Database Administrators, SQL',
-      'SQL Server Developer, SQL'],
-     'Building and Optimizing Triggers in SQL Server': ['SQL Server for Database Administrators, SQL',
-      'SQL Server Developer, SQL'],
-     'Improving Query Performance in SQL Server': ['SQL Server for Database Administrators, SQL',
-      'SQL Server Developer, SQL'],
-     'Creating PostgreSQL Databases': ['SQL for Database Administrators, SQL'],
-     'Improving Query Performance in PostgreSQL': ['SQL for Database Administrators, SQL'],
-     'Error and Uncertainty in Spreadsheets': ['Intermediate Spreadsheets, Spreadsheet'],
-     'Marketing Analytics in Spreadsheets': ['Intermediate Spreadsheets, Spreadsheet'],
-     'Introduction to TensorFlow in Python': ['Deep Learning, Python',
-      'Machine Learning Scientist, Python'],
-     'Introduction to Deep Learning with PyTorch': ['Deep Learning, Python'],
-     'Introduction to Deep Learning with Keras': ['Deep Learning, Python',
-      'Machine Learning Scientist, Python'],
-     'Advanced Deep Learning with Keras': ['Deep Learning, Python',
-      'Machine Learning Scientist, Python'],
-     'Data Science for Everyone': ['Data Literacy Fundamentals, Theory'],
-     'Machine Learning for Everyone': ['Data Literacy Fundamentals, Theory'],
-     'Data Visualization for Everyone': ['Data Literacy Fundamentals, Theory',
-      'Data Analyst, SQL'],
-     'Data Engineering for Everyone': ['Data Literacy Fundamentals, Theory',
-      'Data Engineer, Python'],
-     'Cloud Computing for Everyone': ['Data Literacy Fundamentals, Theory'],
-     'Introduction to Natural Language Processing in Python': ['Natural Language Processing, Python',
-      'Machine Learning Scientist, Python'],
-     'Sentiment Analysis in Python': ['Natural Language Processing, Python'],
-     'Building Chatbots in Python': ['Natural Language Processing, Python'],
-     'Advanced NLP with spaCy': ['Natural Language Processing, Python'],
-     'Spoken Language Processing in Python': ['Natural Language Processing, Python'],
-     'Feature Engineering for NLP in Python': ['Natural Language Processing, Python',
-      'Machine Learning Scientist, Python'],
-     'Recurrent Neural Networks for Language Modeling in Python': ['Deep Learning for NLP, Python'],
-     'Machine Translation in Python': ['Deep Learning for NLP, Python'],
-     'Natural Language Generation in Python': ['Deep Learning for NLP, Python'],
-     'Introduction to Python for Finance': ['Finance Fundamentals, Python'],
-     'Intermediate Python for Finance': ['Finance Fundamentals, Python'],
-     'Introduction to Financial Concepts in Python': ['Finance Fundamentals, Python'],
-     'Importing and Managing Financial Data in Python': ['Finance Fundamentals, Python'],
-     'Introduction to Portfolio Analysis in Python': ['Finance Fundamentals, Python'],
-     'Introduction to Portfolio Risk Management in Python': ['Applied Finance, Python'],
-     'Quantitative Risk Management in Python': ['Applied Finance, Python'],
-     'Credit Risk Modeling in Python': ['Applied Finance, Python'],
-     'GARCH Models in Python': ['Applied Finance, Python'],
-     'Financial Analytics in Spreadsheets': ['Finance Fundamentals, Spreadsheet'],
-     'Financial Modeling in Spreadsheets': ['Finance Fundamentals, Spreadsheet'],
-     'Loan Amortization in Spreadsheets': ['Finance Fundamentals, Spreadsheet'],
-     'Introduction to Tableau': ['Tableau Fundamentals, Tableau'],
-     'Analyzing Data in Tableau': ['Tableau Fundamentals, Tableau'],
-     'Creating Dashboards in Tableau': ['Tableau Fundamentals, Tableau'],
-     'Case Study: Analyzing Customer Churn in Tableau': ['Tableau Fundamentals, Tableau'],
-     'Connecting Data in Tableau': ['Tableau Fundamentals, Tableau'],
-     'Introduction to Power BI': ['Power BI Fundamentals, Power BI',
-      'Data Analyst, Power BI'],
-     'Introduction to DAX in Power BI': ['Power BI Fundamentals, Power BI',
-      'Data Analyst, Power BI'],
-     'Data Visualization in Power BI': ['Power BI Fundamentals, Power BI',
-      'Data Analyst, Power BI'],
-     'Case Study: Analyzing Job Market Data in Power BI': ['Power BI Fundamentals, Power BI',
-      'Data Analyst, Power BI'],
-     'Data Preparation in Power BI': ['Power BI Fundamentals, Power BI',
-      'Data Analyst, Power BI'],
-     'Data Modeling in Power BI': ['Power BI Fundamentals, Power BI',
-      'Data Analyst, Power BI'],
-     'Data Manipulation with R': ['Data Analyst, R',
-      'Data Scientist, R',
-      'R Programmer, R'],
-     'Exploratory Data Analysis in R': ['Data Analyst, R', 'Data Scientist, R'],
-     'Reporting with R Markdown': ['Data Scientist, R'],
-     'Working with Dates and Times in R': ['Data Scientist, R', 'R Programmer, R'],
-     'Importing & Cleaning Data with R': ['Data Scientist, R'],
-     'R Programming': ['Data Scientist, R'],
-     'Data Manipulation with Python': ['Data Analyst, Python',
-      'Data Scientist, Python'],
-     'Exploratory Data Analysis in Python': ['Data Analyst, Python',
-      'Data Scientist, Python'],
-     'Investigating Netflix Movies and Guest Stars in The Office': ['Data Scientist, Python'],
-     'The GitHub History of the Scala Language': ['Data Scientist, Python'],
-     'Introduction to NumPy': ['Data Scientist, Python'],
-     'The Android App Market on Google Play': ['Data Scientist, Python'],
-     'Intermediate Data Visualization with Seaborn': ['Data Scientist, Python'],
-     'A Visual History of Nobel Prize Winners': ['Data Scientist, Python'],
-     'Importing & Cleaning Data with Python': ['Data Scientist, Python'],
-     'Python Programming': ['Data Scientist, Python', 'Data Engineer, Python'],
-     'Predicting Credit Card Approvals': ['Data Scientist, Python'],
-     'Data Types for Data Science in Python': ['Python Programmer, Python'],
-     'Web Scraping in Python': ['Python Programmer, Python'],
-     'Introduction to Shell': ['Python Programmer, Python',
-      'R Programmer, R',
-      'Data Engineer, Python'],
-     'Developing Python Packages': ['Python Programmer, Python'],
-     'Drunken Datetimes in Ames, Iowa': ['R Programmer, R'],
-     'Web Scraping in R': ['R Programmer, R'],
-     'Clustering Bustabit Gambling Behavior': ['R Programmer, R'],
-     'Defensive R Programming': ['R Programmer, R'],
-     'Developing R Packages': ['R Programmer, R'],
-     'Foundations of Probability in R': ['Statistician, R'],
-     'Experimental Design in R': ['Statistician, R'],
-     'Analyzing Survey Data in R': ['Statistician, R'],
-     'Hierarchical and Mixed Effects Models in R': ['Statistician, R'],
-     'Survival Analysis in R': ['Statistician, R'],
-     'Fundamentals of Bayesian Data Analysis in R': ['Statistician, R',
-      'Machine Learning Scientist, R'],
-     'Machine Learning with Tree-Based Models in Python': ['Machine Learning Scientist, Python'],
-     'Extreme Gradient Boosting with XGBoost': ['Machine Learning Scientist, Python'],
-     'Cluster Analysis in Python': ['Machine Learning Scientist, Python'],
-     'Dimensionality Reduction in Python': ['Machine Learning Scientist, Python'],
-     'Preprocessing for Machine Learning in Python': ['Machine Learning Scientist, Python'],
-     'Feature Engineering for Machine Learning in Python': ['Machine Learning Scientist, Python'],
-     'Model Validation in Python': ['Machine Learning Scientist, Python'],
-     'Machine Learning Fundamentals in Python': ['Machine Learning Scientist, Python'],
-     'Hyperparameter Tuning in Python': ['Machine Learning Scientist, Python'],
-     'Introduction to Data Engineering': ['Data Engineer, Python'],
-     'Streamlined Data Ingestion with pandas': ['Data Engineer, Python'],
-     'Data Processing in Shell': ['Data Engineer, Python'],
-     'Introduction to Bash Scripting': ['Data Engineer, Python'],
-     'Introduction to Airflow in Python': ['Data Engineer, Python'],
-     'Introduction to AWS Boto in Python': ['Data Engineer, Python'],
-     'Data Analysis in SQL (PostgreSQL)': ['Data Engineer, Python'],
-     'Introduction to Scala': ['Data Engineer, Python'],
-     'Case Study: Analyzing Customer Churn in Power BI': ['Data Analyst, Power BI'],
-     'Data Transformation in Power BI': ['Data Analyst, Power BI'],
-     'Intermediate Data Modeling in Power BI': ['Data Analyst, Power BI'],
-     'DAX Functions in Power BI': ['Data Analyst, Power BI'],
-     'Intermediate DAX in Power BI': ['Data Analyst, Power BI'],
-     'User-Oriented Design in Power BI': ['Data Analyst, Power BI'],
-     'Exploratory Data Analysis in Power BI': ['Data Analyst, Power BI'],
-     'Trend Analysis in Power BI': ['Data Analyst, Power BI'],
-     'Reports in Power BI': ['Data Analyst, Power BI'],
-     'Report Design in Power BI': ['Data Analyst, Power BI'],
-     'Data Connections in Power BI': ['Data Analyst, Power BI'],
-     'Deploying and Maintaining Assets in Power BI': ['Data Analyst, Power BI'],
-     'Data Communication Concepts': ['Data Analyst, SQL'],
-     'Machine Learning Fundamentals in R': ['Machine Learning Scientist, R'],
-     'Bayesian Regression Modeling with rstanarm': ['Machine Learning Scientist, R']}
+      'R Programmer, R']}
 
 
 
@@ -2327,7 +584,8 @@ for key in complete_tracks:
     track_durations[key] = total_duration
 # Sort the tracks by the total duration descending
 track_durations = {x: track_durations[x] for x in sorted(track_durations, key = track_durations.get, reverse = False)}
-track_durations
+# Show the first few tracks and their total duration
+{k: track_durations[k] for k in list(track_durations)[:4]}
 ```
 
 
@@ -2336,68 +594,7 @@ track_durations
     {'Data Literacy Fundamentals, Theory': 10,
      'Data Visualization, R': 12,
      'Unsupervised Machine Learning, R': 12,
-     'Image Processing, Python': 12,
-     'Intermediate Spreadsheets, Spreadsheet': 12,
-     'Deep Learning for NLP, Python': 12,
-     'Finance Fundamentals, Spreadsheet': 12,
-     'Importing & Cleaning Data, Python': 13,
-     'Python Fundamentals, Python': 15,
-     'Spreadsheet Fundamentals, Spreadsheet': 15,
-     'Importing & Cleaning Data, R': 16,
-     'Data Manipulation, Python': 16,
-     'Machine Learning Fundamentals, Python': 16,
-     'Text Mining, R': 16,
-     'Spatial Data, R': 16,
-     'Shiny Fundamentals, R': 16,
-     'Big Data, R': 16,
-     'Network Analysis, R': 16,
-     'Interactive Data Visualization, R': 16,
-     'Statistical Inference, R': 16,
-     'Data Visualization, Python': 16,
-     'Python Toolbox, Python': 16,
-     'Analyzing Genomic Data, R': 16,
-     'SQL for Database Administrators, SQL': 16,
-     'Applied Finance, Python': 16,
-     'Intermediate Tidyverse Toolbox, R': 17,
-     'Power BI Fundamentals, Power BI': 17,
-     'Data Manipulation, R': 20,
-     'Statistics Fundamentals, R': 20,
-     'Time Series, Python': 20,
-     'Statistics Fundamentals, Python': 20,
-     'Data Skills for Business, Theory': 20,
-     'SQL for Business Analysts, SQL': 20,
-     'Deep Learning, Python': 20,
-     'SQL Fundamentals, SQL': 21,
-     'R Programming, R': 22,
-     'Tidyverse Fundamentals, R': 22,
-     'SQL Server Fundamentals, SQL': 22,
-     'Machine Learning Fundamentals, R': 24,
-     'Marketing Analytics, R': 24,
-     'Big Data with PySpark, Python': 24,
-     'Python Programming, Python': 24,
-     'SQL Server for Database Administrators, SQL': 24,
-     'Time Series, R': 25,
-     'Supervised Machine Learning, R': 25,
-     'Natural Language Processing, Python': 25,
-     'Finance Fundamentals, Python': 25,
-     'Tableau Fundamentals, Tableau': 25,
-     'Finance Fundamentals, R': 28,
-     'Marketing Analytics, Python': 28,
-     'Applied Finance, R': 30,
-     'Data Analyst, R': 32,
-     'Data Analyst, Python': 32,
-     'Data Analyst, SQL': 34,
-     'SQL Server Developer, SQL': 41,
-     'R Programmer, R': 50,
-     'Data Analyst, Power BI': 51,
-     'Statistician, R': 52,
-     'Machine Learning Scientist, R': 57,
-     'Python Programmer, Python': 59,
-     'Quantitative Analyst, R': 67,
-     'Data Engineer, Python': 73,
-     'Data Scientist, R': 88,
-     'Machine Learning Scientist, Python': 93,
-     'Data Scientist, Python': 109}
+     'Image Processing, Python': 12}
 
 
 
@@ -2415,38 +612,17 @@ dc_done_list = [x.text for x in dc_done_soup.find_all('span', class_ = 'css-trun
 dc_done_list = [x.split(".")[0] for x in dc_done_list]
 # Exclude the files that end in 'Track'
 dc_done_list = [x for x in dc_done_list if not x.endswith("Track")]
-dc_done_list
+
+# Show the first few completed courses and the total number
+print("Completed courses:", dc_done_list[:4])
+print("Total number of completed courses:", len(dc_done_list))
 ```
 
-
-
-
-    ['ARIMAModelsinR',
-     'CaseStudiesManipulatingTimeSeriesDatainR',
-     'Data Manipulation with pandas',
-     'DataManipulationwithdplyr',
-     'DevelopingRPackages',
-     'ExploratoryDataAnalysisinR',
-     'ForecastinginR',
-     'IntermediatePython',
-     'IntermediateR',
-     'IntermediateRforFinance',
-     'IntroductiontoDataVisualizationwithggplot2',
-     'IntroductiontoNaturalLanguageProcessinginPython',
-     'IntroductiontoPython',
-     'IntroductiontoR',
-     'IntroductiontoRforFinance',
-     'IntroductiontoSQL',
-     'IntroductiontoSQLServer',
-     'IntroductiontotheTidyverse',
-     'JoiningDatainSQL',
-     'ManipulatingTimeSeriesDatawithxtsandzooinR',
-     'Python Data Science Toolbox (Part 2)',
-     'PythonDataScienceToolbox(Part1)',
-     'TimeSeriesAnalysisinR',
-     'VisualizingTimeSeriesDatainR']
-
-
+    
+    Completed courses: ['ARIMAModelsinR', 'CaseStudiesManipulatingTimeSeriesDatainR', 'Data Manipulation with pandas', 'DataManipulationwithdplyr']
+    
+    Total number of completed courses: 24
+    
 
 
 ```python
@@ -2456,303 +632,14 @@ for key in complete_tracks:
     for course in complete_tracks[key]:
         all_courses.append(course)
 all_courses = set(all_courses)
-all_courses
+# Show the first few courses and the total number
+print({k for k in list(all_courses)[:4]})
+print("Total number of courses:", len(all_courses))
 ```
 
-
-
-
-    {'A Visual History of Nobel Prize Winners',
-     'AI Fundamentals',
-     'ARIMA Models in Python',
-     'ARIMA Models in R',
-     'Advanced Deep Learning with Keras',
-     'Advanced NLP with spaCy',
-     'Analyzing Business Data in SQL',
-     'Analyzing Data in Tableau',
-     'Analyzing Marketing Campaigns with pandas',
-     'Analyzing Police Activity with pandas',
-     'Analyzing Social Media Data in Python',
-     'Analyzing Social Media Data in R',
-     'Analyzing Survey Data in R',
-     'Applying SQL to Real-World Problems',
-     'Bayesian Regression Modeling with rstanarm',
-     'Big Data Fundamentals with PySpark',
-     'Biomedical Image Analysis in Python',
-     'Bond Valuation and Analysis in R',
-     'Building Chatbots in Python',
-     'Building Dashboards with flexdashboard',
-     'Building Dashboards with shinydashboard',
-     'Building Recommendation Engines with PySpark',
-     'Building Response Models in R',
-     'Building Web Applications with Shiny in R',
-     'Building and Optimizing Triggers in SQL Server',
-     'Case Studies: Building Web Applications with Shiny in R',
-     'Case Studies: Manipulating Time Series Data in R',
-     'Case Studies: Network Analysis in R',
-     'Case Study: Analyzing Customer Churn in Power BI',
-     'Case Study: Analyzing Customer Churn in Tableau',
-     'Case Study: Analyzing Job Market Data in Power BI',
-     'Case Study: Exploratory Data Analysis in R',
-     'Categorical Data in the Tidyverse',
-     'ChIP-seq with Bioconductor in R',
-     'Choice Modeling for Marketing in R',
-     'Cleaning Data in Python',
-     'Cleaning Data in R',
-     'Cleaning Data with PySpark',
-     'Cloud Computing for Everyone',
-     'Cluster Analysis in Python',
-     'Cluster Analysis in R',
-     'Clustering Bustabit Gambling Behavior',
-     'Communicating with Data in the Tidyverse',
-     'Connecting Data in Tableau',
-     'Creating Dashboards in Tableau',
-     'Creating PostgreSQL Databases',
-     'Credit Risk Modeling in Python',
-     'Credit Risk Modeling in R',
-     'Customer Analytics and A/B Testing in Python',
-     'Customer Segmentation in Python',
-     'DAX Functions in Power BI',
-     'Data Analysis in SQL (PostgreSQL)',
-     'Data Analysis in Spreadsheets',
-     'Data Communication Concepts',
-     'Data Connections in Power BI',
-     'Data Engineering for Everyone',
-     'Data Manipulation with Python',
-     'Data Manipulation with R',
-     'Data Manipulation with data.table in R',
-     'Data Manipulation with dplyr ',
-     'Data Manipulation with pandas',
-     'Data Modeling in Power BI',
-     'Data Preparation in Power BI',
-     'Data Processing in Shell',
-     'Data Science for Business',
-     'Data Science for Everyone',
-     'Data Transformation in Power BI',
-     'Data Types for Data Science in Python',
-     'Data Visualization for Everyone',
-     'Data Visualization in Power BI',
-     'Data Visualization in Spreadsheets',
-     'Data-Driven Decision Making for Business',
-     'Data-Driven Decision Making in SQL',
-     'Database Design',
-     'Dealing With Missing Data in R',
-     'Dealing with Missing Data in Python',
-     'Defensive R Programming',
-     'Deploying and Maintaining Assets in Power BI',
-     'Developing Python Packages',
-     'Developing R Packages',
-     'Differential Expression Analysis with limma in R',
-     'Dimensionality Reduction in Python',
-     'Dr. Semmelweis and the Discovery of Handwashing',
-     'Drunken Datetimes in Ames, Iowa',
-     'Equity Valuation in R',
-     'Error and Uncertainty in Spreadsheets',
-     'Experimental Design in R',
-     'Exploratory Data Analysis in Power BI',
-     'Exploratory Data Analysis in Python',
-     'Exploratory Data Analysis in R',
-     'Exploratory Data Analysis in SQL',
-     'Exploring the NYC Airbnb Market',
-     'Extreme Gradient Boosting with XGBoost',
-     'Factor Analysis in R',
-     'Feature Engineering for Machine Learning in Python',
-     'Feature Engineering for NLP in Python',
-     'Feature Engineering with PySpark',
-     'Financial Analytics in Spreadsheets',
-     'Financial Modeling in Spreadsheets',
-     'Financial Trading in R',
-     'Forecasting in R',
-     'Foundations of Functional Programming with purrr',
-     'Foundations of Inference',
-     'Foundations of Probability in R',
-     'Functions for Manipulating Data in PostgreSQL',
-     'Functions for Manipulating Data in SQL Server',
-     'Fundamentals of Bayesian Data Analysis in R',
-     'GARCH Models in Python',
-     'GARCH Models in R',
-     'Hierarchical and Mixed Effects Models in R',
-     'Hyperparameter Tuning in Python',
-     'Hyperparameter Tuning in R',
-     'Hypothesis Testing in Python',
-     'Hypothesis Testing in R',
-     'Image Processing in Python',
-     'Image Processing with Keras in Python',
-     'Importing & Cleaning Data with Python',
-     'Importing & Cleaning Data with R',
-     'Importing and Managing Financial Data in Python',
-     'Importing and Managing Financial Data in R',
-     'Improving Query Performance in PostgreSQL',
-     'Improving Query Performance in SQL Server',
-     'Improving Your Data Visualizations in Python',
-     'Inference for Categorical Data in R',
-     'Inference for Linear Regression in R',
-     'Inference for Numerical Data in R',
-     'Interactive Data Visualization with plotly in R',
-     'Interactive Maps with leaflet in R',
-     'Intermediate DAX in Power BI',
-     'Intermediate Data Modeling in Power BI',
-     'Intermediate Data Visualization with Seaborn',
-     'Intermediate Data Visualization with ggplot2',
-     'Intermediate Functional Programming with purrr',
-     'Intermediate Importing Data in Python',
-     'Intermediate Importing Data in R',
-     'Intermediate Interactive Data Visualization with plotly in R',
-     'Intermediate Portfolio Analysis in R',
-     'Intermediate Python',
-     'Intermediate Python for Finance',
-     'Intermediate R',
-     'Intermediate R for Finance',
-     'Intermediate Regression in R',
-     'Intermediate Regression with statsmodels in Python',
-     'Intermediate SQL',
-     'Intermediate SQL Server',
-     'Intermediate Spreadsheets',
-     'Introduction to AWS Boto in Python',
-     'Introduction to Airflow in Python',
-     'Introduction to Bash Scripting',
-     'Introduction to Bioconductor in R',
-     'Introduction to DAX in Power BI',
-     'Introduction to Data Engineering',
-     'Introduction to Data Science in Python',
-     'Introduction to Data Visualization with Matplotlib',
-     'Introduction to Data Visualization with Seaborn',
-     'Introduction to Data Visualization with ggplot2',
-     'Introduction to Databases in Python',
-     'Introduction to Deep Learning in Python',
-     'Introduction to Deep Learning with Keras',
-     'Introduction to Deep Learning with PyTorch',
-     'Introduction to Financial Concepts in Python',
-     'Introduction to Importing Data in Python',
-     'Introduction to Importing Data in R',
-     'Introduction to Natural Language Processing in Python',
-     'Introduction to NumPy',
-     'Introduction to Portfolio Analysis in Python',
-     'Introduction to Portfolio Analysis in R',
-     'Introduction to Portfolio Risk Management in Python',
-     'Introduction to Power BI',
-     'Introduction to PySpark',
-     'Introduction to Python',
-     'Introduction to Python for Finance',
-     'Introduction to R',
-     'Introduction to R for Finance',
-     'Introduction to Regression in R',
-     'Introduction to Regression with statsmodels in Python',
-     'Introduction to Relational Databases in SQL',
-     'Introduction to SQL',
-     'Introduction to SQL Server',
-     'Introduction to Scala',
-     'Introduction to Shell',
-     'Introduction to Spark with sparklyr in R',
-     'Introduction to Statistics in Python',
-     'Introduction to Statistics in R',
-     'Introduction to Statistics in Spreadsheets',
-     'Introduction to Tableau',
-     'Introduction to TensorFlow in Python',
-     'Introduction to Text Analysis in R',
-     'Introduction to Writing Functions in R',
-     'Introduction to the Tidyverse',
-     'Investigating Netflix Movies and Guest Stars in The Office',
-     'Joining Data in SQL',
-     'Joining Data with data.table in R',
-     'Joining Data with dplyr',
-     'Joining Data with pandas',
-     'Life Insurance Products Valuation in R',
-     'Linear Classifiers in Python',
-     'Loan Amortization in Spreadsheets',
-     'Machine Learning Fundamentals in Python',
-     'Machine Learning Fundamentals in R',
-     'Machine Learning for Business',
-     'Machine Learning for Everyone',
-     'Machine Learning for Marketing Analytics in R',
-     'Machine Learning for Marketing in Python',
-     'Machine Learning for Time Series Data in Python',
-     'Machine Learning in the Tidyverse',
-     'Machine Learning with PySpark',
-     'Machine Learning with Tree-Based Models in Python',
-     'Machine Learning with Tree-Based Models in R',
-     'Machine Learning with caret in R',
-     'Machine Translation in Python',
-     'Manipulating Time Series Data in Python',
-     'Manipulating Time Series Data with xts and zoo in R',
-     'Market Basket Analysis in Python',
-     'Market Basket Analysis in R',
-     'Marketing Analytics for Business',
-     'Marketing Analytics in Spreadsheets',
-     'Marketing Analytics: Predicting Customer Churn in Python',
-     'Model Validation in Python',
-     'Modeling with Data in the Tidyverse',
-     'Modeling with tidymodels in R',
-     'Natural Language Generation in Python',
-     'Network Analysis in R',
-     'Network Analysis in the Tidyverse',
-     'Object-Oriented Programming in Python',
-     'Object-Oriented Programming with S3 and R6 in R',
-     'Pivot Tables in Spreadsheets',
-     'PostgreSQL Summary Stats and Window Functions',
-     'Predicting Credit Card Approvals',
-     'Predictive Analytics using Networked Data in R',
-     'Preprocessing for Machine Learning in Python',
-     'Python Data Science Toolbox (Part 1)',
-     'Python Data Science Toolbox (Part 2)',
-     'Python Programming',
-     'Quantitative Risk Management in Python',
-     'Quantitative Risk Management in R',
-     'R Programming',
-     'RNA-Seq with Bioconductor in R',
-     'Recurrent Neural Networks for Language Modeling in Python',
-     'Regular Expressions in Python',
-     'Report Design in Power BI',
-     'Reporting in SQL',
-     'Reporting with R Markdown',
-     'Reports in Power BI',
-     'Reshaping Data with pandas',
-     'Reshaping Data with tidyr',
-     'Sampling in Python',
-     'Sampling in R',
-     'Scalable Data Processing in R',
-     'Sentiment Analysis in Python',
-     'Sentiment Analysis in R',
-     'Software Engineering for Data Scientists in Python',
-     'Spatial Analysis with sf and raster in R',
-     'Spatial Statistics in R',
-     'Spoken Language Processing in Python',
-     'Streamlined Data Ingestion with pandas',
-     'String Manipulation with stringr in R',
-     'Supervised Learning in R: Classification',
-     'Supervised Learning in R: Regression',
-     'Supervised Learning with scikit-learn',
-     'Support Vector Machines in R',
-     'Survival Analysis in R',
-     'Text Mining with Bag-of-Words in R',
-     'The Android App Market on Google Play',
-     'The GitHub History of the Scala Language',
-     'Time Series Analysis in Python',
-     'Time Series Analysis in R',
-     'Time Series Analysis in SQL Server',
-     'Transactions and Error Handling in SQL Server',
-     'Trend Analysis in Power BI',
-     'Unit Testing for Data Science in Python',
-     'Unsupervised Learning in Python',
-     'Unsupervised Learning in R',
-     'User-Oriented Design in Power BI',
-     'Visualization Best Practices in R',
-     'Visualizing Big Data with Trelliscope in R',
-     'Visualizing Geospatial Data in Python',
-     'Visualizing Geospatial Data in R',
-     'Visualizing Time Series Data in Python',
-     'Visualizing Time Series Data in R',
-     'Web Scraping in Python',
-     'Web Scraping in R',
-     'Working with Dates and Times in Python',
-     'Working with Dates and Times in R',
-     'Writing Efficient Code with pandas',
-     'Writing Efficient Python Code',
-     'Writing Efficient R Code',
-     'Writing Functions and Stored Procedures in SQL Server',
-     'Writing Functions in Python'}
-
-
+    {'Introduction to R for Finance', 'Introduction to Statistics in R', 'Financial Analytics in Spreadsheets', 'Preprocessing for Machine Learning in Python'}
+    Total number of courses: 289
+    
 
 
 ```python
@@ -2786,7 +673,9 @@ else:
     # Show scraped and completed courses lengths
     print(f'Scraped: {len(dc_done_list)}')
     print(f'Matched: {len(completed_courses)}')
-completed_courses
+
+# Show the first few completed courses as matched with the scraped list
+completed_courses[:4]
 ```
 
     List is complete
@@ -2799,27 +688,7 @@ completed_courses
     ['ARIMA Models in R',
      'Case Studies: Manipulating Time Series Data in R',
      'Data Manipulation with dplyr ',
-     'Data Manipulation with pandas',
-     'Developing R Packages',
-     'Exploratory Data Analysis in R',
-     'Forecasting in R',
-     'Intermediate Python',
-     'Intermediate R',
-     'Intermediate R for Finance',
-     'Introduction to Data Visualization with ggplot2',
-     'Introduction to Natural Language Processing in Python',
-     'Introduction to Python',
-     'Introduction to R',
-     'Introduction to R for Finance',
-     'Introduction to SQL',
-     'Introduction to SQL Server',
-     'Introduction to the Tidyverse',
-     'Joining Data in SQL',
-     'Manipulating Time Series Data with xts and zoo in R',
-     'Python Data Science Toolbox (Part 1)',
-     'Python Data Science Toolbox (Part 2)',
-     'Time Series Analysis in R',
-     'Visualizing Time Series Data in R']
+     'Data Manipulation with pandas']
 
 
 
@@ -2850,8 +719,8 @@ for key in track_remaining_durations.copy():
     if track_remaining_durations[key] == 0:
         del track_remaining_durations[key]
         del tracks_minus_completed[key]
-track_remaining_durations
-
+# Show the first few tracks and their total duration
+{k: track_remaining_durations[k] for k in list(track_remaining_durations)[:4]}
 ```
 
 
@@ -2860,66 +729,7 @@ track_remaining_durations
     {'Data Visualization, R': 8,
      'Data Literacy Fundamentals, Theory': 10,
      'R Programming, R': 12,
-     'Data Manipulation, Python': 12,
-     'SQL Fundamentals, SQL': 12,
-     'Unsupervised Machine Learning, R': 12,
-     'Image Processing, Python': 12,
-     'Intermediate Spreadsheets, Spreadsheet': 12,
-     'Deep Learning for NLP, Python': 12,
-     'Finance Fundamentals, Spreadsheet': 12,
-     'Data Analyst, R': 12,
-     'Importing & Cleaning Data, Python': 13,
-     'SQL Server Fundamentals, SQL': 13,
-     'Finance Fundamentals, R': 15,
-     'Spreadsheet Fundamentals, Spreadsheet': 15,
-     'Importing & Cleaning Data, R': 16,
-     'Data Manipulation, R': 16,
-     'Machine Learning Fundamentals, Python': 16,
-     'Text Mining, R': 16,
-     'Spatial Data, R': 16,
-     'Shiny Fundamentals, R': 16,
-     'Big Data, R': 16,
-     'Network Analysis, R': 16,
-     'Interactive Data Visualization, R': 16,
-     'Statistical Inference, R': 16,
-     'Data Visualization, Python': 16,
-     'Python Toolbox, Python': 16,
-     'Analyzing Genomic Data, R': 16,
-     'SQL for Database Administrators, SQL': 16,
-     'Applied Finance, Python': 16,
-     'Intermediate Tidyverse Toolbox, R': 17,
-     'Power BI Fundamentals, Power BI': 17,
-     'Tidyverse Fundamentals, R': 18,
-     'Statistics Fundamentals, R': 20,
-     'Time Series, Python': 20,
-     'Statistics Fundamentals, Python': 20,
-     'Data Skills for Business, Theory': 20,
-     'SQL for Business Analysts, SQL': 20,
-     'Deep Learning, Python': 20,
-     'Natural Language Processing, Python': 21,
-     'Machine Learning Fundamentals, R': 24,
-     'Marketing Analytics, R': 24,
-     'Big Data with PySpark, Python': 24,
-     'Python Programming, Python': 24,
-     'SQL Server for Database Administrators, SQL': 24,
-     'Data Analyst, Python': 24,
-     'Supervised Machine Learning, R': 25,
-     'Finance Fundamentals, Python': 25,
-     'Tableau Fundamentals, Tableau': 25,
-     'Data Analyst, SQL': 25,
-     'Marketing Analytics, Python': 28,
-     'Applied Finance, R': 30,
-     'Quantitative Analyst, R': 33,
-     'SQL Server Developer, SQL': 37,
-     'R Programmer, R': 38,
-     'Python Programmer, Python': 48,
-     'Data Analyst, Power BI': 51,
-     'Statistician, R': 52,
-     'Machine Learning Scientist, R': 57,
-     'Data Scientist, R': 62,
-     'Data Engineer, Python': 73,
-     'Machine Learning Scientist, Python': 89,
-     'Data Scientist, Python': 90}
+     'Data Manipulation, Python': 12}
 
 
 
@@ -2981,31 +791,14 @@ def get_courses_by_tech(tech, k_tracks=3)->list:
     courses_durations = [item for sublist in courses_durations for item in sublist]
     return courses_durations
 
-get_courses_by_tech('Python', k_tracks=5)
+# Show the first few courses for Python and the total number of courses found
+print(get_courses_by_tech("Python", k_tracks=5)[:4])
+print("Total number of courses:", len(get_courses_by_tech("Python", k_tracks=5)))
 ```
 
-
-
-
-    [('Joining Data with pandas', 4),
-     ('Analyzing Police Activity with pandas', 4),
-     ('Introduction to Databases in Python', 4),
-     ('Image Processing in Python', 4),
-     ('Biomedical Image Analysis in Python', 4),
-     ('Image Processing with Keras in Python', 4),
-     ('Recurrent Neural Networks for Language Modeling in Python', 4),
-     ('Machine Translation in Python', 4),
-     ('Natural Language Generation in Python', 4),
-     ('Introduction to Importing Data in Python', 3),
-     ('Intermediate Importing Data in Python', 2),
-     ('Cleaning Data in Python', 4),
-     ('Reshaping Data with pandas', 4),
-     ('Supervised Learning with scikit-learn', 4),
-     ('Unsupervised Learning in Python', 4),
-     ('Linear Classifiers in Python', 4),
-     ('Introduction to Deep Learning in Python', 4)]
-
-
+    [('Joining Data with pandas', 4), ('Analyzing Police Activity with pandas', 4), ('Introduction to Databases in Python', 4), ('Image Processing in Python', 4)]
+    Total number of courses: 17
+    
 
 So we have a function that find the course names and durations for the k-shortest remaining courses for any given technology.
 We want to do something similar for a given course name, so that we can find the single shortest track doing that course would contribute towards.
@@ -3048,6 +841,7 @@ def get_track_by_course(course) -> Tuple[str, int]:
         # If not, return the shortest remaining track
         return tracks_durations[0]
 
+# Check a course to find the track and remaining duration
 get_track_by_course('Introduction to Statistics in Spreadsheets')
 ```
 
@@ -3064,15 +858,11 @@ Last couple of things now, just want to double-check I can find the number of tr
 ```python
 # Check no. of tracks a course is in
 test_course = 'Joining Data with pandas'
-course_counts[test_course]
+print("Number of tracks:", course_counts[test_course])
 ```
 
-
-
-
-    3
-
-
+    Number of tracks: 3
+    
 
 Great, and just as some added sugar, I'd like to have a dictionary of courses and their descriptions.
 
@@ -3084,17 +874,19 @@ for track in complete_tracks:
     for course, description in complete_tracks[track].items():
         course_descriptions[course] = description[0]
 
-# Print first few courses and their descriptions
-for i, course in enumerate(course_descriptions.items()):
-    if i == 4: break
-    print(f'{course[0]}: {course[1]}')
+# Show the first few courses and their descriptions
+{k: course_descriptions[k] for k in list(course_descriptions.keys())[:4]}
 ```
 
-    Introduction to R: Master the basics of data analysis by manipulating common data structures such as vectors, matrices, and data frames.
-    Intermediate R: Continue your journey to becoming an R ninja by learning about conditional statements, loops, and vector functions.
-    Writing Efficient R Code: Learn to write faster R code, discover benchmarking and profiling, and unlock the secrets of parallel programming.
-    Introduction to Writing Functions in R: Use cluster analysis to glean insights into cryptocurrency gambling behavior.
-    
+
+
+
+    {'Introduction to R': 'Master the basics of data analysis by manipulating common data structures such as vectors, matrices, and data frames.',
+     'Intermediate R': 'Continue your journey to becoming an R ninja by learning about conditional statements, loops, and vector functions.',
+     'Writing Efficient R Code': 'Learn to write faster R code, discover benchmarking and profiling, and unlock the secrets of parallel programming.',
+     'Introduction to Writing Functions in R': 'Use cluster analysis to glean insights into cryptocurrency gambling behavior.'}
+
+
 
 ### Put it all together
 
@@ -3103,7 +895,7 @@ A dataframe is a suitable output for my recommendations as they display nicely i
 
 ```python
 # Function taking a technology and performing the above functions to get the courses, tracks and remaining durations
-def get_recommendations(tech = None, k_tracks = 5, row_limit = 20)-> pd.DataFrame:
+def get_recommendations(tech = None, k_tracks = 5, row_limit = 10)-> pd.DataFrame:
     """
     Take a technology and get recommended courses and info
 
@@ -3160,12 +952,12 @@ def get_recommendations(tech = None, k_tracks = 5, row_limit = 20)-> pd.DataFram
     return course_all_info_df
     
 
-get_recommendations()
+get_recommendations(k_tracks=3, row_limit=10)
 
 ```
 
     Choose a technology from:
-    ['Theory', 'Python', 'Tableau', 'Power BI', 'R', 'Spreadsheet', 'SQL']
+    ['Theory', 'Spreadsheet', 'Power BI', 'SQL', 'R', 'Tableau', 'Python']
     (Defaulting to 'Python')
     
 
@@ -3206,7 +998,7 @@ get_recommendations()
       <td>3</td>
       <td>Data Manipulation, Python</td>
       <td>12</td>
-      <td>Learn to combine data from multiple tables by joining data together using pandas.</td>
+      <td>Learn to combine data from multiple tables by ...</td>
     </tr>
     <tr>
       <th>1</th>
@@ -3215,7 +1007,7 @@ get_recommendations()
       <td>2</td>
       <td>Data Manipulation, Python</td>
       <td>12</td>
-      <td>Learn to draw conclusions from limited data using Python and statistics. This course covers everything from random sampling to stratified and cluster sampling.</td>
+      <td>Learn to draw conclusions from limited data us...</td>
     </tr>
     <tr>
       <th>2</th>
@@ -3224,7 +1016,7 @@ get_recommendations()
       <td>2</td>
       <td>Image Processing, Python</td>
       <td>12</td>
-      <td>Learn powerful techniques for image analysis in Python using deep learning and convolutional neural networks in Keras.</td>
+      <td>Learn powerful techniques for image analysis i...</td>
     </tr>
     <tr>
       <th>3</th>
@@ -3242,16 +1034,16 @@ get_recommendations()
       <td>1</td>
       <td>Data Manipulation, Python</td>
       <td>12</td>
-      <td>In this course, you'll learn the basics of relational databases and how to interact with them.</td>
+      <td>In this course, you'll learn the basics of rel...</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>Recurrent Neural Networks for Language Modeling in Python</td>
+      <td>Recurrent Neural Networks for Language Modelin...</td>
       <td>4</td>
       <td>1</td>
       <td>Deep Learning for NLP, Python</td>
       <td>12</td>
-      <td>Use RNNs to classify text sentiment, generate sentences, and translate text between languages.</td>
+      <td>Use RNNs to classify text sentiment, generate ...</td>
     </tr>
     <tr>
       <th>6</th>
@@ -3260,7 +1052,7 @@ get_recommendations()
       <td>1</td>
       <td>Deep Learning for NLP, Python</td>
       <td>12</td>
-      <td>Are you curious about the inner workings of the models that are behind products like Google Translate?</td>
+      <td>Are you curious about the inner workings of th...</td>
     </tr>
     <tr>
       <th>7</th>
@@ -3269,7 +1061,7 @@ get_recommendations()
       <td>1</td>
       <td>Deep Learning for NLP, Python</td>
       <td>12</td>
-      <td>Imitate Shakespear, translate language and autocomplete sentences using Deep Learning in Python.</td>
+      <td>Imitate Shakespear, translate language and aut...</td>
     </tr>
     <tr>
       <th>8</th>
@@ -3278,79 +1070,7 @@ get_recommendations()
       <td>1</td>
       <td>Image Processing, Python</td>
       <td>12</td>
-      <td>Learn the fundamentals of exploring, manipulating, and measuring biomedical image data.</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>Intermediate Importing Data in Python</td>
-      <td>2</td>
-      <td>2</td>
-      <td>Importing &amp; Cleaning Data, Python</td>
-      <td>13</td>
-      <td>Learn to diagnose and treat dirty data and develop the skills needed to transform your raw data into accurate insights!</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>Introduction to Importing Data in Python</td>
-      <td>3</td>
-      <td>2</td>
-      <td>Importing &amp; Cleaning Data, Python</td>
-      <td>13</td>
-      <td>Improve your Python data importing skills and learn to work with web and API data.</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>Cleaning Data in Python</td>
-      <td>4</td>
-      <td>2</td>
-      <td>Importing &amp; Cleaning Data, Python</td>
-      <td>13</td>
-      <td>Learn how to work with dates and times in Python.</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>Reshaping Data with pandas</td>
-      <td>4</td>
-      <td>1</td>
-      <td>Importing &amp; Cleaning Data, Python</td>
-      <td>13</td>
-      <td>Reshape DataFrames from a wide to long format, stack and unstack rows and columns, and wrangle multi-index DataFrames.</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>Supervised Learning with scikit-learn</td>
-      <td>4</td>
-      <td>3</td>
-      <td>Machine Learning Fundamentals, Python</td>
-      <td>16</td>
-      <td>Grow your machine learning skills with scikit-learn in Python. Use real-world datasets in this interactive course and learn how to make powerful predictions!</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>Introduction to Deep Learning in Python</td>
-      <td>4</td>
-      <td>3</td>
-      <td>Machine Learning Fundamentals, Python</td>
-      <td>16</td>
-      <td>Learn to start developing deep learning models with Keras.</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>Unsupervised Learning in Python</td>
-      <td>4</td>
-      <td>2</td>
-      <td>Machine Learning Fundamentals, Python</td>
-      <td>16</td>
-      <td>Learn how to cluster, transform, visualize, and extract insights from unlabeled datasets using scikit-learn and scipy.</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>Linear Classifiers in Python</td>
-      <td>4</td>
-      <td>2</td>
-      <td>Machine Learning Fundamentals, Python</td>
-      <td>16</td>
-      <td>In this course you will learn the details of linear classifiers like logistic regression and SVM.</td>
+      <td>Learn the fundamentals of exploring, manipulat...</td>
     </tr>
   </tbody>
 </table>
