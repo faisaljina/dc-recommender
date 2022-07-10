@@ -10,7 +10,7 @@ Ahem..
 
 The issue I have identified is exemplified by DataCamp's 'Career Tracks', which are longer than the 'Skill Tracks' and cover a broader range of topics. By following a longer Career Track, due to the overlap with the shorter Skill Tracks, en route you may inadvertently complete the requisite material for multiple Skill Tracks (or be very close!). However, by not being enrolled on those Skill Tracks, you have no idea this is the case, and so you don't get those flashy DC certificates along the way despite having done the required work - outrageous!
 
-The goal is clear: work out a way of recommending courses based on how close they get you to finishing a track, so that you can rack up those treasured Track certificates as you learn.
+**The goal is clear: work out a way of recommending courses based on how close they get you to finishing a track, so that you can rack up those treasured Track certificates as you learn.**
 
 The recommender should include some key ideas, such as:
 - Course length (some courses are longer than others)
